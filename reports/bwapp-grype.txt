@@ -1,0 +1,1009 @@
+NAME                       INSTALLED                FIXED IN                         TYPE    VULNERABILITY     SEVERITY    EPSS           RISK          
+apache2                    2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38475    Critical    93.7% (99th)   95.0   (kev)  
+apache2-bin                2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38475    Critical    93.7% (99th)   95.0   (kev)  
+apache2-data               2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38475    Critical    93.7% (99th)   95.0   (kev)  
+apache2-utils              2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38475    Critical    93.7% (99th)   95.0   (kev)  
+libc-bin                   2.31-13+deb11u5          2.31-13+deb11u7                  deb     CVE-2023-4911     High        74.1% (98th)   80.3   (kev)  
+libc-dev-bin               2.31-13+deb11u5          2.31-13+deb11u7                  deb     CVE-2023-4911     High        74.1% (98th)   80.3   (kev)  
+libc6                      2.31-13+deb11u5          2.31-13+deb11u7                  deb     CVE-2023-4911     High        74.1% (98th)   80.3   (kev)  
+libc6-dev                  2.31-13+deb11u5          2.31-13+deb11u7                  deb     CVE-2023-4911     High        74.1% (98th)   80.3   (kev)  
+libnghttp2-14              1.43.0-1                 1.43.0-1+deb11u1                 deb     CVE-2023-44487    High        94.4% (99th)   78.8   (kev)  
+libc-bin                   2.31-13+deb11u5          2.31-13+deb11u9                  deb     CVE-2024-2961     High        92.5% (99th)   68.4          
+libc-dev-bin               2.31-13+deb11u5          2.31-13+deb11u9                  deb     CVE-2024-2961     High        92.5% (99th)   68.4          
+libc6                      2.31-13+deb11u5          2.31-13+deb11u9                  deb     CVE-2024-2961     High        92.5% (99th)   68.4          
+libc6-dev                  2.31-13+deb11u5          2.31-13+deb11u9                  deb     CVE-2024-2961     High        92.5% (99th)   68.4          
+apache2                    2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38473    High        85.8% (99th)   66.9          
+apache2-bin                2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38473    High        85.8% (99th)   66.9          
+apache2-data               2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38473    High        85.8% (99th)   66.9          
+apache2-utils              2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38473    High        85.8% (99th)   66.9          
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1n-0+deb11u4                 deb     CVE-2023-0286     High        88.0% (99th)   65.5          
+openssl                    1.1.1n-0+deb11u3         1.1.1n-0+deb11u4                 deb     CVE-2023-0286     High        88.0% (99th)   65.5          
+apache2                    2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2024-27316    High        87.1% (99th)   65.3          
+apache2-bin                2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2024-27316    High        87.1% (99th)   65.3          
+apache2-data               2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2024-27316    High        87.1% (99th)   65.3          
+apache2-utils              2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2024-27316    High        87.1% (99th)   65.3          
+apache2                    2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2023-25690    Critical    69.0% (98th)   64.9          
+apache2-bin                2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2023-25690    Critical    69.0% (98th)   64.9          
+apache2-data               2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2023-25690    Critical    69.0% (98th)   64.9          
+apache2-utils              2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2023-25690    Critical    69.0% (98th)   64.9          
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1n-0+deb11u5                 deb     CVE-2023-2650     Medium      88.2% (99th)   50.7          
+openssl                    1.1.1n-0+deb11u3         1.1.1n-0+deb11u5                 deb     CVE-2023-2650     Medium      88.2% (99th)   50.7          
+libphp                     7.4.33                   *8.1.28, 8.2.18, 8.3.5           binary  CVE-2024-1874     Critical    54.6% (97th)   50.2          
+php-cli                    7.4.33                   *8.1.28, 8.2.18, 8.3.5           binary  CVE-2024-1874     Critical    54.6% (97th)   50.2          
+apache2                    2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-43622    High        58.7% (98th)   44.1          
+apache2-bin                2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-43622    High        58.7% (98th)   44.1          
+apache2-data               2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-43622    High        58.7% (98th)   44.1          
+apache2-utils              2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-43622    High        58.7% (98th)   44.1          
+libsystemd0                247.3-7+deb11u1          247.3-7+deb11u6                  deb     CVE-2023-50868    High        47.3% (97th)   35.5          
+libudev1                   247.3-7+deb11u1          247.3-7+deb11u6                  deb     CVE-2023-50868    High        47.3% (97th)   35.5          
+libsystemd0                247.3-7+deb11u1          247.3-7+deb11u6                  deb     CVE-2023-50387    High        36.4% (97th)   27.3          
+libudev1                   247.3-7+deb11u1          247.3-7+deb11u6                  deb     CVE-2023-50387    High        36.4% (97th)   27.3          
+libdb5.3                   5.3.28+dfsg1-0.8         (won't fix)                      deb     CVE-2019-8457     Critical    24.7% (95th)   23.2          
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u10              deb     CVE-2023-38545    Critical    22.2% (95th)   20.9          
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u10              deb     CVE-2023-38545    Critical    22.2% (95th)   20.9          
+apache2                    2.4.54-1~deb11u1         2.4.62-1~deb11u1                 deb     CVE-2024-40725    Medium      24.0% (95th)   12.4          
+apache2-bin                2.4.54-1~deb11u1         2.4.62-1~deb11u1                 deb     CVE-2024-40725    Medium      24.0% (95th)   12.4          
+apache2-data               2.4.54-1~deb11u1         2.4.62-1~deb11u1                 deb     CVE-2024-40725    Medium      24.0% (95th)   12.4          
+apache2-utils              2.4.54-1~deb11u1         2.4.62-1~deb11u1                 deb     CVE-2024-40725    Medium      24.0% (95th)   12.4          
+libnghttp2-14              1.43.0-1                 1.43.0-1+deb11u2                 deb     CVE-2024-28182    Medium      22.1% (95th)   11.4          
+libgssapi-krb5-2           1.18.3-6+deb11u2         1.18.3-6+deb11u3                 deb     CVE-2022-42898    High        8.7% (92nd)    7.1           
+libk5crypto3               1.18.3-6+deb11u2         1.18.3-6+deb11u3                 deb     CVE-2022-42898    High        8.7% (92nd)    7.1           
+libkrb5-3                  1.18.3-6+deb11u2         1.18.3-6+deb11u3                 deb     CVE-2022-42898    High        8.7% (92nd)    7.1           
+libkrb5support0            1.18.3-6+deb11u2         1.18.3-6+deb11u3                 deb     CVE-2022-42898    High        8.7% (92nd)    7.1           
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2024-5535     Critical    7.8% (91st)    7.1           
+openssl                    1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2024-5535     Critical    7.8% (91st)    7.1           
+apache2                    2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-38709    High        5.2% (89th)    3.8           
+apache2-bin                2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-38709    High        5.2% (89th)    3.8           
+apache2-data               2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-38709    High        5.2% (89th)    3.8           
+apache2-utils              2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-38709    High        5.2% (89th)    3.8           
+bsdutils                   1:2.36.1-8+deb11u1       2.36.1-8+deb11u2                 deb     CVE-2024-28085    Low         10.5% (92nd)   3.3           
+libblkid1                  2.36.1-8+deb11u1         2.36.1-8+deb11u2                 deb     CVE-2024-28085    Low         10.5% (92nd)   3.3           
+libmount1                  2.36.1-8+deb11u1         2.36.1-8+deb11u2                 deb     CVE-2024-28085    Low         10.5% (92nd)   3.3           
+libsmartcols1              2.36.1-8+deb11u1         2.36.1-8+deb11u2                 deb     CVE-2024-28085    Low         10.5% (92nd)   3.3           
+libuuid1                   2.36.1-8+deb11u1         2.36.1-8+deb11u2                 deb     CVE-2024-28085    Low         10.5% (92nd)   3.3           
+mount                      2.36.1-8+deb11u1         2.36.1-8+deb11u2                 deb     CVE-2024-28085    Low         10.5% (92nd)   3.3           
+util-linux                 2.36.1-8+deb11u1         2.36.1-8+deb11u2                 deb     CVE-2024-28085    Low         10.5% (92nd)   3.3           
+libsqlite3-0               3.34.1-3                                                  deb     CVE-2022-35737    Negligible  64.4% (98th)   3.2           
+libphp                     7.4.33                   *8.1.28, 8.2.18, 8.3.5           binary  CVE-2024-2756     Medium      5.4% (89th)    3.1           
+php-cli                    7.4.33                   *8.1.28, 8.2.18, 8.3.5           binary  CVE-2024-2756     Medium      5.4% (89th)    3.1           
+libgnutls30                3.7.1-5+deb11u2          3.7.1-5+deb11u3                  deb     CVE-2023-0361     High        3.0% (86th)    2.3           
+apache2                    2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38476    Critical    2.0% (82nd)    1.9           
+apache2-bin                2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38476    Critical    2.0% (82nd)    1.9           
+apache2-data               2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38476    Critical    2.0% (82nd)    1.9           
+apache2-utils              2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38476    Critical    2.0% (82nd)    1.9           
+libgssapi-krb5-2           1.18.3-6+deb11u2         1.18.3-6+deb11u5                 deb     CVE-2024-37371    Critical    1.9% (82nd)    1.8           
+libk5crypto3               1.18.3-6+deb11u2         1.18.3-6+deb11u5                 deb     CVE-2024-37371    Critical    1.9% (82nd)    1.8           
+libkrb5-3                  1.18.3-6+deb11u2         1.18.3-6+deb11u5                 deb     CVE-2024-37371    Critical    1.9% (82nd)    1.8           
+libkrb5support0            1.18.3-6+deb11u2         1.18.3-6+deb11u5                 deb     CVE-2024-37371    Critical    1.9% (82nd)    1.8           
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u12              deb     CVE-2024-2398     High        2.0% (82nd)    1.6           
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u12              deb     CVE-2024-2398     High        2.0% (82nd)    1.6           
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2024-2511     Medium      2.7% (85th)    1.5           
+openssl                    1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2024-2511     Medium      2.7% (85th)    1.5           
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u13              deb     CVE-2024-7264     Medium      2.6% (85th)    1.5           
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u13              deb     CVE-2024-7264     Medium      2.6% (85th)    1.5           
+libglib2.0-0               2.66.8-1                 2.66.8-1+deb11u5                 deb     CVE-2024-52533    Critical    1.5% (80th)    1.4           
+liblua5.3-0                5.3.3-1.1+b1             5.3.3-1.1+deb11u1                deb     CVE-2020-24370    Medium      2.7% (85th)    1.4           
+patch                      2.7.6-7                                                   deb     CVE-2018-6951     Negligible  23.7% (95th)   1.2           
+apache2                    2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-45802    Medium      2.1% (83rd)    1.1           
+apache2-bin                2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-45802    Medium      2.1% (83rd)    1.1           
+apache2-data               2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-45802    Medium      2.1% (83rd)    1.1           
+apache2-utils              2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-45802    Medium      2.1% (83rd)    1.1           
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1n-0+deb11u5                 deb     CVE-2023-0464     High        1.3% (79th)    1.0           
+openssl                    1.1.1n-0+deb11u3         1.1.1n-0+deb11u5                 deb     CVE-2023-0464     High        1.3% (79th)    1.0           
+libphp                     7.4.33                   *8.1.29, 8.2.20, 8.3.8           binary  CVE-2024-5458     Medium      1.9% (82nd)    1.0           
+php-cli                    7.4.33                   *8.1.29, 8.2.20, 8.3.8           binary  CVE-2024-5458     Medium      1.9% (82nd)    1.0           
+login                      1:4.8.1-1                (won't fix)                      deb     CVE-2024-56433    Low         2.8% (85th)    0.9           
+passwd                     1:4.8.1-1                (won't fix)                      deb     CVE-2024-56433    Low         2.8% (85th)    0.9           
+libgnutls30                3.7.1-5+deb11u2          3.7.1-5+deb11u6                  deb     CVE-2024-28834    Medium      1.7% (81st)    0.9           
+libldap-2.4-2              2.4.57+dfsg-3+deb11u1    (won't fix)                      deb     CVE-2023-2953     High        1.1% (77th)    0.8           
+libgnutls30                3.7.1-5+deb11u2          3.7.1-5+deb11u5                  deb     CVE-2024-0567     High        1.1% (77th)    0.8           
+libgnutls30                3.7.1-5+deb11u2          3.7.1-5+deb11u5                  deb     CVE-2024-0553     High        1.1% (76th)    0.8           
+apache2                    2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-39573    High        1.0% (76th)    0.8           
+apache2-bin                2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-39573    High        1.0% (76th)    0.8           
+apache2-data               2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-39573    High        1.0% (76th)    0.8           
+apache2-utils              2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-39573    High        1.0% (76th)    0.8           
+libsqlite3-0               3.34.1-3                 3.34.1-3+deb11u1                 deb     CVE-2021-36690    High        1.0% (75th)    0.7           
+apache2                    2.4.54-1~deb11u1                                          deb     CVE-2008-0456     Negligible  14.3% (94th)   0.7           
+apache2-bin                2.4.54-1~deb11u1                                          deb     CVE-2008-0456     Negligible  14.3% (94th)   0.7           
+apache2-data               2.4.54-1~deb11u1                                          deb     CVE-2008-0456     Negligible  14.3% (94th)   0.7           
+apache2-utils              2.4.54-1~deb11u1                                          deb     CVE-2008-0456     Negligible  14.3% (94th)   0.7           
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u5               deb     CVE-2022-32221    Critical    0.8% (72nd)    0.7           
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u5               deb     CVE-2022-32221    Critical    0.8% (72nd)    0.7           
+libperl5.32                5.32.1-4+deb11u2         5.32.1-4+deb11u4                 deb     CVE-2023-31484    High        0.9% (74th)    0.7           
+perl                       5.32.1-4+deb11u2         5.32.1-4+deb11u4                 deb     CVE-2023-31484    High        0.9% (74th)    0.7           
+perl-base                  5.32.1-4+deb11u2         5.32.1-4+deb11u4                 deb     CVE-2023-31484    High        0.9% (74th)    0.7           
+perl-modules-5.32          5.32.1-4+deb11u2         5.32.1-4+deb11u4                 deb     CVE-2023-31484    High        0.9% (74th)    0.7           
+libc-bin                   2.31-13+deb11u5          (won't fix)                      deb     CVE-2023-4806     Medium      1.1% (76th)    0.6           
+libc-dev-bin               2.31-13+deb11u5          (won't fix)                      deb     CVE-2023-4806     Medium      1.1% (76th)    0.6           
+libc6                      2.31-13+deb11u5          (won't fix)                      deb     CVE-2023-4806     Medium      1.1% (76th)    0.6           
+libc6-dev                  2.31-13+deb11u5          (won't fix)                      deb     CVE-2023-4806     Medium      1.1% (76th)    0.6           
+patch                      2.7.6-7                                                   deb     CVE-2018-6952     Negligible  11.1% (93rd)   0.6           
+apache2                    2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2023-27522    High        0.7% (71st)    0.5           
+apache2-bin                2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2023-27522    High        0.7% (71st)    0.5           
+apache2-data               2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2023-27522    High        0.7% (71st)    0.5           
+apache2-utils              2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2023-27522    High        0.7% (71st)    0.5           
+apache2                    2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2006-20001    High        0.7% (70th)    0.5           
+apache2-bin                2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2006-20001    High        0.7% (70th)    0.5           
+apache2-data               2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2006-20001    High        0.7% (70th)    0.5           
+apache2-utils              2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2006-20001    High        0.7% (70th)    0.5           
+libexpat1                  2.2.10-2+deb11u5         2.2.10-2+deb11u6                 deb     CVE-2023-52425    High        0.7% (70th)    0.5           
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u5          deb     CVE-2022-2309     High        0.7% (70th)    0.5           
+libphp                     7.4.33                   *8.1.31, 8.2.26, 8.3.14          binary  CVE-2024-11236    Critical    0.5% (66th)    0.5           
+php-cli                    7.4.33                   *8.1.31, 8.2.26, 8.3.14          binary  CVE-2024-11236    Critical    0.5% (66th)    0.5           
+apache2                    2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38474    Critical    0.5% (64th)    0.5           
+apache2-bin                2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38474    Critical    0.5% (64th)    0.5           
+apache2-data               2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38474    Critical    0.5% (64th)    0.5           
+apache2-utils              2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38474    Critical    0.5% (64th)    0.5           
+libgnutls30                3.7.1-5+deb11u2          3.7.1-5+deb11u7                  deb     CVE-2024-12243    Medium      0.9% (74th)    0.4           
+libgcrypt20                1.8.7-6                  (won't fix)                      deb     CVE-2021-33560    High        0.5% (66th)    0.4           
+e2fsprogs                  1.46.2-2                 1.46.2-2+deb11u1                 deb     CVE-2022-1304     High        0.5% (65th)    0.4           
+libcom-err2                1.46.2-2                 1.46.2-2+deb11u1                 deb     CVE-2022-1304     High        0.5% (65th)    0.4           
+libext2fs2                 1.46.2-2                 1.46.2-2+deb11u1                 deb     CVE-2022-1304     High        0.5% (65th)    0.4           
+libss2                     1.46.2-2                 1.46.2-2+deb11u1                 deb     CVE-2022-1304     High        0.5% (65th)    0.4           
+logsave                    1.46.2-2                 1.46.2-2+deb11u1                 deb     CVE-2022-1304     High        0.5% (65th)    0.4           
+libgssapi-krb5-2           1.18.3-6+deb11u2         1.18.3-6+deb11u4                 deb     CVE-2023-36054    Medium      0.6% (69th)    0.4           
+libk5crypto3               1.18.3-6+deb11u2         1.18.3-6+deb11u4                 deb     CVE-2023-36054    Medium      0.6% (69th)    0.4           
+libkrb5-3                  1.18.3-6+deb11u2         1.18.3-6+deb11u4                 deb     CVE-2023-36054    Medium      0.6% (69th)    0.4           
+libkrb5support0            1.18.3-6+deb11u2         1.18.3-6+deb11u4                 deb     CVE-2023-36054    Medium      0.6% (69th)    0.4           
+libexpat1                  2.2.10-2+deb11u5         (won't fix)                      deb     CVE-2024-8176     High        0.5% (64th)    0.4           
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1v-0~deb11u1                 deb     CVE-2023-3446     Medium      0.7% (70th)    0.3           
+openssl                    1.1.1n-0+deb11u3         1.1.1v-0~deb11u1                 deb     CVE-2023-3446     Medium      0.7% (70th)    0.3           
+apache2                    2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-53020    High        0.5% (62nd)    0.3           
+apache2-bin                2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-53020    High        0.5% (62nd)    0.3           
+apache2-data               2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-53020    High        0.5% (62nd)    0.3           
+apache2-utils              2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-53020    High        0.5% (62nd)    0.3           
+curl                       7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2024-9681     Medium      0.6% (67th)    0.3           
+libcurl4                   7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2024-9681     Medium      0.6% (67th)    0.3           
+apache2                    2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38477    High        0.4% (62nd)    0.3           
+apache2-bin                2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38477    High        0.4% (62nd)    0.3           
+apache2-data               2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38477    High        0.4% (62nd)    0.3           
+apache2-utils              2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-38477    High        0.4% (62nd)    0.3           
+libc-bin                   2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33599    High        0.4% (60th)    0.3           
+libc-dev-bin               2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33599    High        0.4% (60th)    0.3           
+libc6                      2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33599    High        0.4% (60th)    0.3           
+libc6-dev                  2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33599    High        0.4% (60th)    0.3           
+libphp                     7.4.33                   *8.1.31, 8.2.26, 8.3.14          binary  CVE-2024-8932     Critical    0.3% (56th)    0.3           
+php-cli                    7.4.33                   *8.1.31, 8.2.26, 8.3.14          binary  CVE-2024-8932     Critical    0.3% (56th)    0.3           
+libgnutls30                3.7.1-5+deb11u2          3.7.1-5+deb11u4                  deb     CVE-2023-5981     Medium      0.6% (67th)    0.3           
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2024-9143     Medium      0.7% (70th)    0.3           
+openssl                    1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2024-9143     Medium      0.7% (70th)    0.3           
+bind9-dnsutils             1:9.16.50-1~deb11u3      (won't fix)                      deb     CVE-2022-2881     High        0.4% (58th)    0.3           
+bind9-host                 1:9.16.50-1~deb11u3      (won't fix)                      deb     CVE-2022-2881     High        0.4% (58th)    0.3           
+bind9-libs                 1:9.16.50-1~deb11u3      (won't fix)                      deb     CVE-2022-2881     High        0.4% (58th)    0.3           
+dnsutils                   1:9.16.50-1~deb11u3      (won't fix)                      deb     CVE-2022-2881     High        0.4% (58th)    0.3           
+apache2                    2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-42516    High        0.4% (58th)    0.3           
+apache2-bin                2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-42516    High        0.4% (58th)    0.3           
+apache2-data               2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-42516    High        0.4% (58th)    0.3           
+apache2-utils              2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-42516    High        0.4% (58th)    0.3           
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1n-0+deb11u5                 deb     CVE-2023-0466     Medium      0.5% (65th)    0.3           
+openssl                    1.1.1n-0+deb11u3         1.1.1n-0+deb11u5                 deb     CVE-2023-0466     Medium      0.5% (65th)    0.3           
+libc-bin                   2.31-13+deb11u5          2.31-13+deb11u12                 deb     CVE-2025-0395     High        0.3% (56th)    0.3           
+libc-dev-bin               2.31-13+deb11u5          2.31-13+deb11u12                 deb     CVE-2025-0395     High        0.3% (56th)    0.3           
+libc6                      2.31-13+deb11u5          2.31-13+deb11u12                 deb     CVE-2025-0395     High        0.3% (56th)    0.3           
+libc6-dev                  2.31-13+deb11u5          2.31-13+deb11u12                 deb     CVE-2025-0395     High        0.3% (56th)    0.3           
+apache2                    2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-49630    High        0.3% (56th)    0.3           
+apache2-bin                2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-49630    High        0.3% (56th)    0.3           
+apache2-data               2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-49630    High        0.3% (56th)    0.3           
+apache2-utils              2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-49630    High        0.3% (56th)    0.3           
+libexpat1                  2.2.10-2+deb11u5         2.2.10-2+deb11u6                 deb     CVE-2024-45492    Critical    0.3% (50th)    0.3           
+apache2                    2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2022-37436    Medium      0.5% (64th)    0.3           
+apache2-bin                2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2022-37436    Medium      0.5% (64th)    0.3           
+apache2-data               2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2022-37436    Medium      0.5% (64th)    0.3           
+apache2-utils              2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2022-37436    Medium      0.5% (64th)    0.3           
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u11              deb     CVE-2023-46218    Medium      0.4% (61st)    0.2           
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u11              deb     CVE-2023-46218    Medium      0.4% (61st)    0.2           
+libtasn1-6                 4.16.0-2                 4.16.0-2+deb11u1                 deb     CVE-2021-46848    Critical    0.3% (50th)    0.2           
+libgssapi-krb5-2           1.18.3-6+deb11u2         1.18.3-6+deb11u5                 deb     CVE-2024-37370    High        0.3% (53rd)    0.2           
+libk5crypto3               1.18.3-6+deb11u2         1.18.3-6+deb11u5                 deb     CVE-2024-37370    High        0.3% (53rd)    0.2           
+libkrb5-3                  1.18.3-6+deb11u2         1.18.3-6+deb11u5                 deb     CVE-2024-37370    High        0.3% (53rd)    0.2           
+libkrb5support0            1.18.3-6+deb11u2         1.18.3-6+deb11u5                 deb     CVE-2024-37370    High        0.3% (53rd)    0.2           
+libgnutls30                3.7.1-5+deb11u2                                           deb     CVE-2011-3389     Negligible  4.5% (88th)    0.2           
+apache2                    2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2022-36760    Critical    0.2% (46th)    0.2           
+apache2-bin                2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2022-36760    Critical    0.2% (46th)    0.2           
+apache2-data               2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2022-36760    Critical    0.2% (46th)    0.2           
+apache2-utils              2.4.54-1~deb11u1         2.4.56-1~deb11u1                 deb     CVE-2022-36760    Critical    0.2% (46th)    0.2           
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1n-0+deb11u4                 deb     CVE-2023-0215     High        0.3% (50th)    0.2           
+openssl                    1.1.1n-0+deb11u3         1.1.1n-0+deb11u4                 deb     CVE-2023-0215     High        0.3% (50th)    0.2           
+libphp                     7.4.33                   *8.1.31, 8.2.26, 8.3.14          binary  CVE-2024-11233    High        0.3% (50th)    0.2           
+php-cli                    7.4.33                   *8.1.31, 8.2.26, 8.3.14          binary  CVE-2024-11233    High        0.3% (50th)    0.2           
+libtasn1-6                 4.16.0-2                 4.16.0-2+deb11u2                 deb     CVE-2024-12133    Medium      0.4% (58th)    0.2           
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u8          deb     CVE-2025-49794    Critical    0.2% (42nd)    0.2           
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u8          deb     CVE-2025-49796    Critical    0.2% (42nd)    0.2           
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2024-0727     Medium      0.3% (55th)    0.2           
+openssl                    1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2024-0727     Medium      0.3% (55th)    0.2           
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1n-0+deb11u5                 deb     CVE-2023-0465     Medium      0.3% (55th)    0.2           
+openssl                    1.1.1n-0+deb11u3         1.1.1n-0+deb11u5                 deb     CVE-2023-0465     Medium      0.3% (55th)    0.2           
+apache2                    2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-43204    High        0.2% (45th)    0.2           
+apache2-bin                2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-43204    High        0.2% (45th)    0.2           
+apache2-data               2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-43204    High        0.2% (45th)    0.2           
+apache2-utils              2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-43204    High        0.2% (45th)    0.2           
+libc-bin                   2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33602    High        0.2% (45th)    0.2           
+libc-dev-bin               2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33602    High        0.2% (45th)    0.2           
+libc6                      2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33602    High        0.2% (45th)    0.2           
+libc6-dev                  2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33602    High        0.2% (45th)    0.2           
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u9               deb     CVE-2023-28322    Low         0.5% (65th)    0.2           
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u9               deb     CVE-2023-28322    Low         0.5% (65th)    0.2           
+libc-bin                   2.31-13+deb11u5          (won't fix)                      deb     CVE-2023-4813     Medium      0.3% (53rd)    0.2           
+libc-dev-bin               2.31-13+deb11u5          (won't fix)                      deb     CVE-2023-4813     Medium      0.3% (53rd)    0.2           
+libc6                      2.31-13+deb11u5          (won't fix)                      deb     CVE-2023-4813     Medium      0.3% (53rd)    0.2           
+libc6-dev                  2.31-13+deb11u5          (won't fix)                      deb     CVE-2023-4813     Medium      0.3% (53rd)    0.2           
+tar                        1.34+dfsg-1                                               deb     CVE-2005-2541     Negligible  3.2% (86th)    0.2           
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u9               deb     CVE-2023-28321    Medium      0.3% (52nd)    0.2           
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u9               deb     CVE-2023-28321    Medium      0.3% (52nd)    0.2           
+libsystemd0                247.3-7+deb11u1          247.3-7+deb11u6                  deb     CVE-2023-7008     Medium      0.3% (52nd)    0.2           
+libudev1                   247.3-7+deb11u1          247.3-7+deb11u6                  deb     CVE-2023-7008     Medium      0.3% (52nd)    0.2           
+apache2                    2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-31122    High        0.2% (43rd)    0.2           
+apache2-bin                2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-31122    High        0.2% (43rd)    0.2           
+apache2-data               2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-31122    High        0.2% (43rd)    0.2           
+apache2-utils              2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2023-31122    High        0.2% (43rd)    0.2           
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u8          deb     CVE-2024-34459    High        0.2% (43rd)    0.2           
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u4          deb     CVE-2023-28484    Medium      0.3% (49th)    0.2           
+libldap-2.4-2              2.4.57+dfsg-3+deb11u1                                     deb     CVE-2017-17740    Negligible  2.8% (85th)    0.1           
+m4                         1.4.18-5                                                  deb     CVE-2008-1687     Negligible  2.7% (85th)    0.1           
+libapr1                    1.7.0-6+deb11u1          1.7.0-6+deb11u2                  deb     CVE-2022-24963    Critical    0.1% (33rd)    0.1           
+apache2                    2.4.54-1~deb11u1                                          deb     CVE-2007-0086     Negligible  2.4% (84th)    0.1           
+apache2-bin                2.4.54-1~deb11u1                                          deb     CVE-2007-0086     Negligible  2.4% (84th)    0.1           
+apache2-data               2.4.54-1~deb11u1                                          deb     CVE-2007-0086     Negligible  2.4% (84th)    0.1           
+apache2-utils              2.4.54-1~deb11u1                                          deb     CVE-2007-0086     Negligible  2.4% (84th)    0.1           
+libphp                     7.4.33                   *8.1.28, 8.2.18, 8.3.5           binary  CVE-2024-3096     Medium      0.2% (42nd)    0.1           
+php-cli                    7.4.33                   *8.1.28, 8.2.18, 8.3.5           binary  CVE-2024-3096     Medium      0.2% (42nd)    0.1           
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u14              deb     CVE-2024-8096     Medium      0.2% (42nd)    0.1           
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u14              deb     CVE-2024-8096     Medium      0.2% (42nd)    0.1           
+libc-bin                   2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33600    Medium      0.2% (42nd)    0.1           
+libc-dev-bin               2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33600    Medium      0.2% (42nd)    0.1           
+libc6                      2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33600    Medium      0.2% (42nd)    0.1           
+libc6-dev                  2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33600    Medium      0.2% (42nd)    0.1           
+m4                         1.4.18-5                                                  deb     CVE-2008-1688     Negligible  2.2% (83rd)    0.1           
+libperl5.32                5.32.1-4+deb11u2         5.32.1-4+deb11u3                 deb     CVE-2023-47038    High        0.1% (35th)    0.1           
+perl                       5.32.1-4+deb11u2         5.32.1-4+deb11u3                 deb     CVE-2023-47038    High        0.1% (35th)    0.1           
+perl-base                  5.32.1-4+deb11u2         5.32.1-4+deb11u3                 deb     CVE-2023-47038    High        0.1% (35th)    0.1           
+perl-modules-5.32          5.32.1-4+deb11u2         5.32.1-4+deb11u3                 deb     CVE-2023-47038    High        0.1% (35th)    0.1           
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1n-0+deb11u4                 deb     CVE-2022-2097     Medium      0.2% (42nd)    0.1           
+openssl                    1.1.1n-0+deb11u3         1.1.1n-0+deb11u4                 deb     CVE-2022-2097     Medium      0.2% (42nd)    0.1           
+libexpat1                  2.2.10-2+deb11u5         2.2.10-2+deb11u6                 deb     CVE-2024-45491    Critical    0.1% (29th)    0.1           
+libc-bin                   2.31-13+deb11u5                                           deb     CVE-2018-20796    Negligible  2.0% (82nd)    < 0.1         
+libc-dev-bin               2.31-13+deb11u5                                           deb     CVE-2018-20796    Negligible  2.0% (82nd)    < 0.1         
+libc6                      2.31-13+deb11u5                                           deb     CVE-2018-20796    Negligible  2.0% (82nd)    < 0.1         
+libc6-dev                  2.31-13+deb11u5                                           deb     CVE-2018-20796    Negligible  2.0% (82nd)    < 0.1         
+curl                       7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2023-46219    Medium      0.2% (41st)    < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2023-46219    Medium      0.2% (41st)    < 0.1         
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1n-0+deb11u4                 deb     CVE-2022-4304     Medium      0.2% (39th)    < 0.1         
+openssl                    1.1.1n-0+deb11u3         1.1.1n-0+deb11u4                 deb     CVE-2022-4304     Medium      0.2% (39th)    < 0.1         
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1v-0~deb11u1                 deb     CVE-2023-3817     Medium      0.2% (40th)    < 0.1         
+openssl                    1.1.1n-0+deb11u3         1.1.1v-0~deb11u1                 deb     CVE-2023-3817     Medium      0.2% (40th)    < 0.1         
+apache2                    2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2024-24795    Negligible  1.9% (82nd)    < 0.1         
+apache2-bin                2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2024-24795    Negligible  1.9% (82nd)    < 0.1         
+apache2-data               2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2024-24795    Negligible  1.9% (82nd)    < 0.1         
+apache2-utils              2.4.54-1~deb11u1         2.4.59-1~deb11u1                 deb     CVE-2024-24795    Negligible  1.9% (82nd)    < 0.1         
+patch                      2.7.6-7                                                   deb     CVE-2010-4651     Negligible  1.8% (82nd)    < 0.1         
+libglib2.0-0               2.66.8-1                 2.66.8-1+deb11u1                 deb     CVE-2023-29499    High        0.1% (31st)    < 0.1         
+libldap-2.4-2              2.4.57+dfsg-3+deb11u1                                     deb     CVE-2015-3276     Negligible  1.8% (81st)    < 0.1         
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2024-4741     High        0.1% (31st)    < 0.1         
+openssl                    1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2024-4741     High        0.1% (31st)    < 0.1         
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1n-0+deb11u4                 deb     CVE-2022-4450     High        0.1% (31st)    < 0.1         
+openssl                    1.1.1n-0+deb11u3         1.1.1n-0+deb11u4                 deb     CVE-2022-4450     High        0.1% (31st)    < 0.1         
+libsqlite3-0               3.34.1-3                 3.34.1-3+deb11u1                 deb     CVE-2023-7104     High        0.1% (30th)    < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u6          deb     CVE-2024-25062    High        0.1% (30th)    < 0.1         
+curl                       7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2023-23914    Critical    < 0.1% (26th)  < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2023-23914    Critical    < 0.1% (26th)  < 0.1         
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u8               deb     CVE-2023-27534    High        0.1% (28th)    < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u8               deb     CVE-2023-27534    High        0.1% (28th)    < 0.1         
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u8               deb     CVE-2023-27533    High        < 0.1% (27th)  < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u8               deb     CVE-2023-27533    High        < 0.1% (27th)  < 0.1         
+libphp                     7.4.33                   *8.1.33, 8.2.29, 8.3.23, 8.4.10  binary  CVE-2025-6491     Medium      0.1% (35th)    < 0.1         
+php-cli                    7.4.33                   *8.1.33, 8.2.29, 8.3.23, 8.4.10  binary  CVE-2025-6491     Medium      0.1% (35th)    < 0.1         
+apt                        2.2.4                                                     deb     CVE-2011-3374     Negligible  1.5% (80th)    < 0.1         
+libapt-pkg6.0              2.2.4                                                     deb     CVE-2011-3374     Negligible  1.5% (80th)    < 0.1         
+apache2                    2.4.54-1~deb11u1         2.4.61-1                         deb     CVE-2024-39884    Medium      0.1% (33rd)    < 0.1         
+apache2-bin                2.4.54-1~deb11u1         2.4.61-1                         deb     CVE-2024-39884    Medium      0.1% (33rd)    < 0.1         
+apache2-data               2.4.54-1~deb11u1         2.4.61-1                         deb     CVE-2024-39884    Medium      0.1% (33rd)    < 0.1         
+apache2-utils              2.4.54-1~deb11u1         2.4.61-1                         deb     CVE-2024-39884    Medium      0.1% (33rd)    < 0.1         
+libphp                     7.4.33                   *8.1.29, 8.2.20, 8.3.8           binary  CVE-2024-2408     Medium      0.1% (33rd)    < 0.1         
+php-cli                    7.4.33                   *8.1.29, 8.2.20, 8.3.8           binary  CVE-2024-2408     Medium      0.1% (33rd)    < 0.1         
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u10              deb     CVE-2023-38546    Low         0.2% (43rd)    < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u10              deb     CVE-2023-38546    Low         0.2% (43rd)    < 0.1         
+libsqlite3-0               3.34.1-3                 (won't fix)                      deb     CVE-2025-6965     Critical    < 0.1% (23rd)  < 0.1         
+apache2                    2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-43394    High        < 0.1% (26th)  < 0.1         
+apache2-bin                2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-43394    High        < 0.1% (26th)  < 0.1         
+apache2-data               2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-43394    High        < 0.1% (26th)  < 0.1         
+apache2-utils              2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-43394    High        < 0.1% (26th)  < 0.1         
+libphp                     7.4.33                   *8.1.33, 8.2.29, 8.3.23, 8.4.10  binary  CVE-2025-1735     High        < 0.1% (27th)  < 0.1         
+php-cli                    7.4.33                   *8.1.33, 8.2.29, 8.3.23, 8.4.10  binary  CVE-2025-1735     High        < 0.1% (27th)  < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u8          deb     CVE-2025-6021     High        < 0.1% (26th)  < 0.1         
+libphp                     7.4.33                   *8.1.32, 8.2.28, 8.3.19, 8.4.5   binary  CVE-2025-1736     High        < 0.1% (26th)  < 0.1         
+php-cli                    7.4.33                   *8.1.32, 8.2.28, 8.3.19, 8.4.5   binary  CVE-2025-1736     High        < 0.1% (26th)  < 0.1         
+libzstd1                   1.4.8+dfsg-2.1           (won't fix)                      deb     CVE-2022-4899     High        < 0.1% (25th)  < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u5          deb     CVE-2016-3709     Medium      0.1% (31st)    < 0.1         
+dpkg                       1.20.12                  (won't fix)                      deb     CVE-2025-6297     High        < 0.1% (24th)  < 0.1         
+dpkg-dev                   1.20.12                  (won't fix)                      deb     CVE-2025-6297     High        < 0.1% (24th)  < 0.1         
+libdpkg-perl               1.20.12                  (won't fix)                      deb     CVE-2025-6297     High        < 0.1% (24th)  < 0.1         
+libssh2-1                  1.9.0-2                  1.9.0-2+deb11u1                  deb     CVE-2020-22218    High        < 0.1% (25th)  < 0.1         
+apache2                    2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-47252    High        < 0.1% (25th)  < 0.1         
+apache2-bin                2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-47252    High        < 0.1% (25th)  < 0.1         
+apache2-data               2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-47252    High        < 0.1% (25th)  < 0.1         
+apache2-utils              2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2024-47252    High        < 0.1% (25th)  < 0.1         
+apache2                    2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-49812    High        < 0.1% (25th)  < 0.1         
+apache2-bin                2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-49812    High        < 0.1% (25th)  < 0.1         
+apache2-data               2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-49812    High        < 0.1% (25th)  < 0.1         
+apache2-utils              2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-49812    High        < 0.1% (25th)  < 0.1         
+libphp                     7.4.33                   *8.1.32, 8.2.28, 8.3.19, 8.4.5   binary  CVE-2025-1861     Critical    < 0.1% (22nd)  < 0.1         
+php-cli                    7.4.33                   *8.1.32, 8.2.28, 8.3.19, 8.4.5   binary  CVE-2025-1861     Critical    < 0.1% (22nd)  < 0.1         
+apache2                    2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-23048    Critical    < 0.1% (20th)  < 0.1         
+apache2-bin                2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-23048    Critical    < 0.1% (20th)  < 0.1         
+apache2-data               2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-23048    Critical    < 0.1% (20th)  < 0.1         
+apache2-utils              2.4.54-1~deb11u1         2.4.65-1~deb11u1                 deb     CVE-2025-23048    Critical    < 0.1% (20th)  < 0.1         
+libphp                     7.4.33                   *8.1.30, 8.2.24, 8.3.12          binary  CVE-2024-8927     High        < 0.1% (23rd)  < 0.1         
+php-cli                    7.4.33                   *8.1.30, 8.2.24, 8.3.12          binary  CVE-2024-8927     High        < 0.1% (23rd)  < 0.1         
+libgnutls30                3.7.1-5+deb11u2          3.7.1-5+deb11u8                  deb     CVE-2025-32990    High        < 0.1% (22nd)  < 0.1         
+apache2                    2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-36387    Medium      0.1% (29th)    < 0.1         
+apache2-bin                2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-36387    Medium      0.1% (29th)    < 0.1         
+apache2-data               2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-36387    Medium      0.1% (29th)    < 0.1         
+apache2-utils              2.4.54-1~deb11u1         2.4.61-1~deb11u1                 deb     CVE-2024-36387    Medium      0.1% (29th)    < 0.1         
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u5               deb     CVE-2022-43552    Medium      0.1% (28th)    < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u5               deb     CVE-2022-43552    Medium      0.1% (28th)    < 0.1         
+libphp                     7.4.33                   8.0.22                           binary  CVE-2022-4900     Medium      < 0.1% (28th)  < 0.1         
+php-cli                    7.4.33                   8.0.22                           binary  CVE-2022-4900     Medium      < 0.1% (28th)  < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2018-20712    Negligible  1.1% (76th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2018-20712    Negligible  1.1% (76th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2018-20712    Negligible  1.1% (76th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2018-20712    Negligible  1.1% (76th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2018-20712    Negligible  1.1% (76th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2018-20712    Negligible  1.1% (76th)    < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u6          deb     CVE-2023-39615    Medium      < 0.1% (27th)  < 0.1         
+libglib2.0-0               2.66.8-1                 (won't fix)                      deb     CVE-2025-4373     Medium      0.1% (29th)    < 0.1         
+libexpat1                  2.2.10-2+deb11u5         2.2.10-2+deb11u6                 deb     CVE-2024-45490    High        < 0.1% (21st)  < 0.1         
+libncurses6                6.2+20201114-2           6.2+20201114-2+deb11u2           deb     CVE-2023-29491    High        < 0.1% (20th)  < 0.1         
+libncursesw6               6.2+20201114-2           6.2+20201114-2+deb11u2           deb     CVE-2023-29491    High        < 0.1% (20th)  < 0.1         
+libtinfo6                  6.2+20201114-2           6.2+20201114-2+deb11u2           deb     CVE-2023-29491    High        < 0.1% (20th)  < 0.1         
+ncurses-base               6.2+20201114-2           6.2+20201114-2+deb11u2           deb     CVE-2023-29491    High        < 0.1% (20th)  < 0.1         
+ncurses-bin                6.2+20201114-2           6.2+20201114-2+deb11u2           deb     CVE-2023-29491    High        < 0.1% (20th)  < 0.1         
+libglib2.0-0               2.66.8-1                 2.66.8-1+deb11u2                 deb     CVE-2024-34397    Medium      < 0.1% (28th)  < 0.1         
+libphp                     7.4.33                   *8.1.30, 8.2.24, 8.3.12          binary  CVE-2024-8925     Medium      0.1% (28th)    < 0.1         
+php-cli                    7.4.33                   *8.1.30, 8.2.24, 8.3.12          binary  CVE-2024-8925     Medium      0.1% (28th)    < 0.1         
+liblua5.3-0                5.3.3-1.1+b1             5.3.3-1.1+deb11u1                deb     CVE-2019-6706     Negligible  0.9% (75th)    < 0.1         
+apache2                    2.4.54-1~deb11u1                                          deb     CVE-2003-1581     Negligible  0.9% (74th)    < 0.1         
+apache2-bin                2.4.54-1~deb11u1                                          deb     CVE-2003-1581     Negligible  0.9% (74th)    < 0.1         
+apache2-data               2.4.54-1~deb11u1                                          deb     CVE-2003-1581     Negligible  0.9% (74th)    < 0.1         
+apache2-utils              2.4.54-1~deb11u1                                          deb     CVE-2003-1581     Negligible  0.9% (74th)    < 0.1         
+libgnutls30                3.7.1-5+deb11u2          3.7.1-5+deb11u8                  deb     CVE-2025-32988    High        < 0.1% (17th)  < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u6          deb     CVE-2023-45322    Medium      < 0.1% (23rd)  < 0.1         
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2023-5678     Medium      < 0.1% (24th)  < 0.1         
+openssl                    1.1.1n-0+deb11u3         1.1.1w-0+deb11u2                 deb     CVE-2023-5678     Medium      < 0.1% (24th)  < 0.1         
+libpam-modules             1.4.0-9+deb11u1          (won't fix)                      deb     CVE-2024-22365    Medium      < 0.1% (24th)  < 0.1         
+libpam-modules-bin         1.4.0-9+deb11u1          (won't fix)                      deb     CVE-2024-22365    Medium      < 0.1% (24th)  < 0.1         
+libpam-runtime             1.4.0-9+deb11u1          (won't fix)                      deb     CVE-2024-22365    Medium      < 0.1% (24th)  < 0.1         
+libpam0g                   1.4.0-9+deb11u1          (won't fix)                      deb     CVE-2024-22365    Medium      < 0.1% (24th)  < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u6          deb     CVE-2025-27113    High        < 0.1% (17th)  < 0.1         
+libexpat1                  2.2.10-2+deb11u5         2.2.10-2+deb11u7                 deb     CVE-2024-50602    Medium      < 0.1% (21st)  < 0.1         
+curl                       7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2022-42916    High        < 0.1% (14th)  < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2022-42916    High        < 0.1% (14th)  < 0.1         
+bash                       5.1-2+deb11u1            (won't fix)                      deb     CVE-2022-3715     High        < 0.1% (14th)  < 0.1         
+libssl1.1                  1.1.1n-0+deb11u3         1.1.1w-0+deb11u3                 deb     CVE-2024-13176    Medium      < 0.1% (24th)  < 0.1         
+openssl                    1.1.1n-0+deb11u3         1.1.1w-0+deb11u3                 deb     CVE-2024-13176    Medium      < 0.1% (24th)  < 0.1         
+libperl5.32                5.32.1-4+deb11u2         5.32.1-4+deb11u4                 deb     CVE-2020-16156    High        < 0.1% (13th)  < 0.1         
+perl                       5.32.1-4+deb11u2         5.32.1-4+deb11u4                 deb     CVE-2020-16156    High        < 0.1% (13th)  < 0.1         
+perl-base                  5.32.1-4+deb11u2         5.32.1-4+deb11u4                 deb     CVE-2020-16156    High        < 0.1% (13th)  < 0.1         
+perl-modules-5.32          5.32.1-4+deb11u2         5.32.1-4+deb11u4                 deb     CVE-2020-16156    High        < 0.1% (13th)  < 0.1         
+libc-bin                   2.31-13+deb11u5                                           deb     CVE-2019-1010023  Negligible  0.7% (71st)    < 0.1         
+libc-dev-bin               2.31-13+deb11u5                                           deb     CVE-2019-1010023  Negligible  0.7% (71st)    < 0.1         
+libc6                      2.31-13+deb11u5                                           deb     CVE-2019-1010023  Negligible  0.7% (71st)    < 0.1         
+libc6-dev                  2.31-13+deb11u5                                           deb     CVE-2019-1010023  Negligible  0.7% (71st)    < 0.1         
+libphp                     7.4.33                   *8.1.31, 8.2.24, 8.3.14          binary  CVE-2024-8929     Medium      < 0.1% (19th)  < 0.1         
+php-cli                    7.4.33                   *8.1.31, 8.2.24, 8.3.14          binary  CVE-2024-8929     Medium      < 0.1% (19th)  < 0.1         
+libgnutls30                3.7.1-5+deb11u2          3.7.1-5+deb11u8                  deb     CVE-2025-6395     Medium      < 0.1% (17th)  < 0.1         
+apache2                    2.4.54-1~deb11u1                                          deb     CVE-2003-1580     Negligible  0.7% (70th)    < 0.1         
+apache2-bin                2.4.54-1~deb11u1                                          deb     CVE-2003-1580     Negligible  0.7% (70th)    < 0.1         
+apache2-data               2.4.54-1~deb11u1                                          deb     CVE-2003-1580     Negligible  0.7% (70th)    < 0.1         
+apache2-utils              2.4.54-1~deb11u1                                          deb     CVE-2003-1580     Negligible  0.7% (70th)    < 0.1         
+libphp                     7.4.33                   *8.1.33, 8.2.29, 8.3.23, 8.4.10  binary  CVE-2025-1220     Medium      < 0.1% (21st)  < 0.1         
+php-cli                    7.4.33                   *8.1.33, 8.2.29, 8.3.23, 8.4.10  binary  CVE-2025-1220     Medium      < 0.1% (21st)  < 0.1         
+curl                       7.74.0-1.3+deb11u3                                        deb     CVE-2023-28320    Negligible  0.6% (69th)    < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3                                        deb     CVE-2023-28320    Negligible  0.6% (69th)    < 0.1         
+libphp                     7.4.33                   *8.1.32, 8.2.28, 8.3.19, 8.4.5   binary  CVE-2025-1734     Medium      < 0.1% (18th)  < 0.1         
+php-cli                    7.4.33                   *8.1.32, 8.2.28, 8.3.19, 8.4.5   binary  CVE-2025-1734     Medium      < 0.1% (18th)  < 0.1         
+libphp                     7.4.33                   *8.1.31, 8.2.26, 8.3.14          binary  CVE-2024-11234    High        < 0.1% (13th)  < 0.1         
+php-cli                    7.4.33                   *8.1.31, 8.2.26, 8.3.14          binary  CVE-2024-11234    High        < 0.1% (13th)  < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u4          deb     CVE-2023-29469    Medium      < 0.1% (16th)  < 0.1         
+libglib2.0-0               2.66.8-1                 2.66.8-1+deb11u1                 deb     CVE-2023-32665    Medium      < 0.1% (18th)  < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u7          deb     CVE-2025-32415    High        < 0.1% (11th)  < 0.1         
+curl                       7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2023-23915    Medium      < 0.1% (15th)  < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2023-23915    Medium      < 0.1% (15th)  < 0.1         
+libc-bin                   2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33601    High        < 0.1% (11th)  < 0.1         
+libc-dev-bin               2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33601    High        < 0.1% (11th)  < 0.1         
+libc6                      2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33601    High        < 0.1% (11th)  < 0.1         
+libc6-dev                  2.31-13+deb11u5          2.31-13+deb11u10                 deb     CVE-2024-33601    High        < 0.1% (11th)  < 0.1         
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u7               deb     CVE-2023-23916    Medium      < 0.1% (15th)  < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u7               deb     CVE-2023-23916    Medium      < 0.1% (15th)  < 0.1         
+libncurses6                6.2+20201114-2           (won't fix)                      deb     CVE-2023-50495    Medium      < 0.1% (15th)  < 0.1         
+libncursesw6               6.2+20201114-2           (won't fix)                      deb     CVE-2023-50495    Medium      < 0.1% (15th)  < 0.1         
+libtinfo6                  6.2+20201114-2           (won't fix)                      deb     CVE-2023-50495    Medium      < 0.1% (15th)  < 0.1         
+ncurses-base               6.2+20201114-2           (won't fix)                      deb     CVE-2023-50495    Medium      < 0.1% (15th)  < 0.1         
+ncurses-bin                6.2+20201114-2           (won't fix)                      deb     CVE-2023-50495    Medium      < 0.1% (15th)  < 0.1         
+apache2                    2.4.54-1~deb11u1                                          deb     CVE-2003-1307     Negligible  0.6% (67th)    < 0.1         
+apache2-bin                2.4.54-1~deb11u1                                          deb     CVE-2003-1307     Negligible  0.6% (67th)    < 0.1         
+apache2-data               2.4.54-1~deb11u1                                          deb     CVE-2003-1307     Negligible  0.6% (67th)    < 0.1         
+apache2-utils              2.4.54-1~deb11u1                                          deb     CVE-2003-1307     Negligible  0.6% (67th)    < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u6          deb     CVE-2022-49043    High        < 0.1% (8th)   < 0.1         
+libprotobuf-c1             1.3.3-1+b2               (won't fix)                      deb     CVE-2022-33070    Medium      < 0.1% (15th)  < 0.1         
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u8               deb     CVE-2023-27535    Medium      < 0.1% (15th)  < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u8               deb     CVE-2023-27535    Medium      < 0.1% (15th)  < 0.1         
+libaprutil1                1.6.1-5                  1.6.1-5+deb11u1                  deb     CVE-2022-25147    Medium      < 0.1% (13th)  < 0.1         
+libaprutil1-dbd-sqlite3    1.6.1-5                  1.6.1-5+deb11u1                  deb     CVE-2022-25147    Medium      < 0.1% (13th)  < 0.1         
+libaprutil1-ldap           1.6.1-5                  1.6.1-5+deb11u1                  deb     CVE-2022-25147    Medium      < 0.1% (13th)  < 0.1         
+libgssapi-krb5-2           1.18.3-6+deb11u2         1.18.3-6+deb11u7                 deb     CVE-2025-3576     Medium      < 0.1% (13th)  < 0.1         
+libk5crypto3               1.18.3-6+deb11u2         1.18.3-6+deb11u7                 deb     CVE-2025-3576     Medium      < 0.1% (13th)  < 0.1         
+libkrb5-3                  1.18.3-6+deb11u2         1.18.3-6+deb11u7                 deb     CVE-2025-3576     Medium      < 0.1% (13th)  < 0.1         
+libkrb5support0            1.18.3-6+deb11u2         1.18.3-6+deb11u7                 deb     CVE-2025-3576     Medium      < 0.1% (13th)  < 0.1         
+libglib2.0-0               2.66.8-1                                                  deb     CVE-2012-0039     Negligible  0.5% (64th)    < 0.1         
+libexpat1                  2.2.10-2+deb11u5                                          deb     CVE-2024-28757    Negligible  0.5% (63rd)    < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u7          deb     CVE-2025-32414    High        < 0.1% (7th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2021-3549     Negligible  0.5% (63rd)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2021-3549     Negligible  0.5% (63rd)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2021-3549     Negligible  0.5% (63rd)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2021-3549     Negligible  0.5% (63rd)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2021-3549     Negligible  0.5% (63rd)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2021-3549     Negligible  0.5% (63rd)    < 0.1         
+libgssapi-krb5-2           1.18.3-6+deb11u2                                          deb     CVE-2018-5709     Negligible  0.5% (63rd)    < 0.1         
+libk5crypto3               1.18.3-6+deb11u2                                          deb     CVE-2018-5709     Negligible  0.5% (63rd)    < 0.1         
+libkrb5-3                  1.18.3-6+deb11u2                                          deb     CVE-2018-5709     Negligible  0.5% (63rd)    < 0.1         
+libkrb5support0            1.18.3-6+deb11u2                                          deb     CVE-2018-5709     Negligible  0.5% (63rd)    < 0.1         
+curl                       7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2022-43551    High        < 0.1% (7th)   < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       (won't fix)                      deb     CVE-2022-43551    High        < 0.1% (7th)   < 0.1         
+libperl5.32                5.32.1-4+deb11u2                                          deb     CVE-2023-31486    Negligible  0.4% (62nd)    < 0.1         
+perl                       5.32.1-4+deb11u2                                          deb     CVE-2023-31486    Negligible  0.4% (62nd)    < 0.1         
+perl-base                  5.32.1-4+deb11u2                                          deb     CVE-2023-31486    Negligible  0.4% (62nd)    < 0.1         
+perl-modules-5.32          5.32.1-4+deb11u2                                          deb     CVE-2023-31486    Negligible  0.4% (62nd)    < 0.1         
+libphp                     7.4.33                   *8.1.32, 8.2.28, 8.3.19, 8.4.5   binary  CVE-2025-1217     Low         < 0.1% (17th)  < 0.1         
+php-cli                    7.4.33                   *8.1.32, 8.2.28, 8.3.19, 8.4.5   binary  CVE-2025-1217     Low         < 0.1% (17th)  < 0.1         
+tar                        1.34+dfsg-1              1.34+dfsg-1+deb11u1              deb     CVE-2023-39804    Medium      < 0.1% (10th)  < 0.1         
+libncurses6                6.2+20201114-2           6.2+20201114-2+deb11u1           deb     CVE-2022-29458    High        < 0.1% (6th)   < 0.1         
+libncursesw6               6.2+20201114-2           6.2+20201114-2+deb11u1           deb     CVE-2022-29458    High        < 0.1% (6th)   < 0.1         
+libtinfo6                  6.2+20201114-2           6.2+20201114-2+deb11u1           deb     CVE-2022-29458    High        < 0.1% (6th)   < 0.1         
+ncurses-base               6.2+20201114-2           6.2+20201114-2+deb11u1           deb     CVE-2022-29458    High        < 0.1% (6th)   < 0.1         
+ncurses-bin                6.2+20201114-2           6.2+20201114-2+deb11u1           deb     CVE-2022-29458    High        < 0.1% (6th)   < 0.1         
+libicu67                   67.1-7                   67.1-7+deb11u1                   deb     CVE-2025-5222     High        < 0.1% (6th)   < 0.1         
+libapr1                    1.7.0-6+deb11u1          (won't fix)                      deb     CVE-2023-49582    Medium      < 0.1% (10th)  < 0.1         
+libpam-modules             1.4.0-9+deb11u1                                           deb     CVE-2025-6020     High        < 0.1% (5th)   < 0.1         
+libpam-modules-bin         1.4.0-9+deb11u1                                           deb     CVE-2025-6020     High        < 0.1% (5th)   < 0.1         
+libpam-runtime             1.4.0-9+deb11u1                                           deb     CVE-2025-6020     High        < 0.1% (5th)   < 0.1         
+libpam0g                   1.4.0-9+deb11u1                                           deb     CVE-2025-6020     High        < 0.1% (5th)   < 0.1         
+libpcre3                   2:8.39-13                                                 deb     CVE-2017-7245     Negligible  0.4% (59th)    < 0.1         
+libgcrypt20                1.8.7-6                                                   deb     CVE-2018-6829     Negligible  0.4% (59th)    < 0.1         
+coreutils                  8.32-4+b1                (won't fix)                      deb     CVE-2016-2781     Low         < 0.1% (20th)  < 0.1         
+libglib2.0-0               2.66.8-1                 2.66.8-1+deb11u1                 deb     CVE-2023-32611    Medium      < 0.1% (9th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2018-9996     Negligible  0.4% (58th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2018-9996     Negligible  0.4% (58th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2018-9996     Negligible  0.4% (58th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2018-9996     Negligible  0.4% (58th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2018-9996     Negligible  0.4% (58th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2018-9996     Negligible  0.4% (58th)    < 0.1         
+libphp                     7.4.33                   *8.1.30, 8.2.24, 8.3.12          binary  CVE-2024-9026     Low         < 0.1% (19th)  < 0.1         
+php-cli                    7.4.33                   *8.1.30, 8.2.24, 8.3.12          binary  CVE-2024-9026     Low         < 0.1% (19th)  < 0.1         
+curl                       7.74.0-1.3+deb11u3                                        deb     CVE-2025-0725     Negligible  0.4% (58th)    < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3                                        deb     CVE-2025-0725     Negligible  0.4% (58th)    < 0.1         
+libc-bin                   2.31-13+deb11u5                                           deb     CVE-2019-1010024  Negligible  0.4% (58th)    < 0.1         
+libc-dev-bin               2.31-13+deb11u5                                           deb     CVE-2019-1010024  Negligible  0.4% (58th)    < 0.1         
+libc6                      2.31-13+deb11u5                                           deb     CVE-2019-1010024  Negligible  0.4% (58th)    < 0.1         
+libc6-dev                  2.31-13+deb11u5                                           deb     CVE-2019-1010024  Negligible  0.4% (58th)    < 0.1         
+libc-bin                   2.31-13+deb11u5                                           deb     CVE-2010-4756     Negligible  0.4% (58th)    < 0.1         
+libc-dev-bin               2.31-13+deb11u5                                           deb     CVE-2010-4756     Negligible  0.4% (58th)    < 0.1         
+libc6                      2.31-13+deb11u5                                           deb     CVE-2010-4756     Negligible  0.4% (58th)    < 0.1         
+libc6-dev                  2.31-13+deb11u5                                           deb     CVE-2010-4756     Negligible  0.4% (58th)    < 0.1         
+libldap-2.4-2              2.4.57+dfsg-3+deb11u1                                     deb     CVE-2020-15719    Negligible  0.4% (58th)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2021-3826     Negligible  0.4% (57th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2021-3826     Negligible  0.4% (57th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2021-3826     Negligible  0.4% (57th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2021-3826     Negligible  0.4% (57th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2021-3826     Negligible  0.4% (57th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2021-3826     Negligible  0.4% (57th)    < 0.1         
+libsystemd0                247.3-7+deb11u1          247.3-7+deb11u7                  deb     CVE-2025-4598     Medium      < 0.1% (10th)  < 0.1         
+libudev1                   247.3-7+deb11u1          247.3-7+deb11u7                  deb     CVE-2025-4598     Medium      < 0.1% (10th)  < 0.1         
+libpcre3                   2:8.39-13                                                 deb     CVE-2017-7246     Negligible  0.4% (57th)    < 0.1         
+libglib2.0-0               2.66.8-1                 2.66.8-1+deb11u6                 deb     CVE-2025-3360     Low         < 0.1% (15th)  < 0.1         
+tar                        1.34+dfsg-1              1.34+dfsg-1+deb11u1              deb     CVE-2022-48303    Medium      < 0.1% (7th)   < 0.1         
+libglib2.0-0               2.66.8-1                 (won't fix)                      deb     CVE-2025-7039     Low         < 0.1% (15th)  < 0.1         
+login                      1:4.8.1-1                                                 deb     CVE-2007-5686     Negligible  0.3% (55th)    < 0.1         
+passwd                     1:4.8.1-1                                                 deb     CVE-2007-5686     Negligible  0.3% (55th)    < 0.1         
+libjansson4                2.13.1-1.1                                                deb     CVE-2020-36325    Negligible  0.3% (54th)    < 0.1         
+bind9-dnsutils             1:9.16.50-1~deb11u3      (won't fix)                      deb     CVE-2025-40777    High        < 0.1% (4th)   < 0.1         
+bind9-host                 1:9.16.50-1~deb11u3      (won't fix)                      deb     CVE-2025-40777    High        < 0.1% (4th)   < 0.1         
+bind9-libs                 1:9.16.50-1~deb11u3      (won't fix)                      deb     CVE-2025-40777    High        < 0.1% (4th)   < 0.1         
+dnsutils                   1:9.16.50-1~deb11u3      (won't fix)                      deb     CVE-2025-40777    High        < 0.1% (4th)   < 0.1         
+libpam-modules             1.4.0-9+deb11u1          (won't fix)                      deb     CVE-2024-10041    Medium      < 0.1% (7th)   < 0.1         
+libpam-modules-bin         1.4.0-9+deb11u1          (won't fix)                      deb     CVE-2024-10041    Medium      < 0.1% (7th)   < 0.1         
+libpam-runtime             1.4.0-9+deb11u1          (won't fix)                      deb     CVE-2024-10041    Medium      < 0.1% (7th)   < 0.1         
+libpam0g                   1.4.0-9+deb11u1          (won't fix)                      deb     CVE-2024-10041    Medium      < 0.1% (7th)   < 0.1         
+libpcre3                   2:8.39-13                                                 deb     CVE-2019-20838    Negligible  0.3% (53rd)    < 0.1         
+libsystemd0                247.3-7+deb11u1          247.3-7+deb11u2                  deb     CVE-2022-4415     Medium      < 0.1% (6th)   < 0.1         
+libudev1                   247.3-7+deb11u1          247.3-7+deb11u2                  deb     CVE-2022-4415     Medium      < 0.1% (6th)   < 0.1         
+libgcrypt20                1.8.7-6                                                   deb     CVE-2024-2236     Negligible  0.3% (52nd)    < 0.1         
+re2c                       2.0.3-1                                                   deb     CVE-2022-23901    Negligible  0.3% (52nd)    < 0.1         
+patch                      2.7.6-7                                                   deb     CVE-2021-45261    Negligible  0.3% (49th)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2021-46195    Negligible  0.3% (49th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2021-46195    Negligible  0.3% (49th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2021-46195    Negligible  0.3% (49th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2021-46195    Negligible  0.3% (49th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2021-46195    Negligible  0.3% (49th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2021-46195    Negligible  0.3% (49th)    < 0.1         
+libprotobuf-c1             1.3.3-1+b2               (won't fix)                      deb     CVE-2022-48468    Medium      < 0.1% (4th)   < 0.1         
+libsqlite3-0               3.34.1-3                                                  deb     CVE-2021-45346    Negligible  0.2% (47th)    < 0.1         
+libc-bin                   2.31-13+deb11u5                                           deb     CVE-2019-1010025  Negligible  0.2% (46th)    < 0.1         
+libc-dev-bin               2.31-13+deb11u5                                           deb     CVE-2019-1010025  Negligible  0.2% (46th)    < 0.1         
+libc6                      2.31-13+deb11u5                                           deb     CVE-2019-1010025  Negligible  0.2% (46th)    < 0.1         
+libc6-dev                  2.31-13+deb11u5                                           deb     CVE-2019-1010025  Negligible  0.2% (46th)    < 0.1         
+libpcre3                   2:8.39-13                                                 deb     CVE-2017-11164    Negligible  0.2% (45th)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1153     Negligible  0.2% (43rd)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1153     Negligible  0.2% (43rd)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1153     Negligible  0.2% (43rd)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1153     Negligible  0.2% (43rd)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1153     Negligible  0.2% (43rd)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1153     Negligible  0.2% (43rd)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2021-45078    Negligible  0.2% (43rd)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2021-45078    Negligible  0.2% (43rd)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2021-45078    Negligible  0.2% (43rd)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2021-45078    Negligible  0.2% (43rd)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2021-45078    Negligible  0.2% (43rd)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2021-45078    Negligible  0.2% (43rd)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1148     Negligible  0.2% (43rd)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1148     Negligible  0.2% (43rd)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1148     Negligible  0.2% (43rd)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1148     Negligible  0.2% (43rd)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1148     Negligible  0.2% (43rd)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1148     Negligible  0.2% (43rd)    < 0.1         
+login                      1:4.8.1-1                1:4.8.1-1+deb11u1                deb     CVE-2023-29383    Low         < 0.1% (7th)   < 0.1         
+passwd                     1:4.8.1-1                1:4.8.1-1+deb11u1                deb     CVE-2023-29383    Low         < 0.1% (7th)   < 0.1         
+libgssapi-krb5-2           1.18.3-6+deb11u2                                          deb     CVE-2024-26458    Negligible  0.2% (43rd)    < 0.1         
+libk5crypto3               1.18.3-6+deb11u2                                          deb     CVE-2024-26458    Negligible  0.2% (43rd)    < 0.1         
+libkrb5-3                  1.18.3-6+deb11u2                                          deb     CVE-2024-26458    Negligible  0.2% (43rd)    < 0.1         
+libkrb5support0            1.18.3-6+deb11u2                                          deb     CVE-2024-26458    Negligible  0.2% (43rd)    < 0.1         
+curl                       7.74.0-1.3+deb11u3                                        deb     CVE-2024-2379     Negligible  0.2% (42nd)    < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3                                        deb     CVE-2024-2379     Negligible  0.2% (42nd)    < 0.1         
+file                       1:5.39-3                 1:5.39-3+deb11u1                 deb     CVE-2022-48554    Medium      < 0.1% (3rd)   < 0.1         
+libmagic-mgc               1:5.39-3                 1:5.39-3+deb11u1                 deb     CVE-2022-48554    Medium      < 0.1% (3rd)   < 0.1         
+libmagic1                  1:5.39-3                 1:5.39-3+deb11u1                 deb     CVE-2022-48554    Medium      < 0.1% (3rd)   < 0.1         
+libc-bin                   2.31-13+deb11u5          (won't fix)                      deb     CVE-2025-8058     Medium      < 0.1% (3rd)   < 0.1         
+libc-dev-bin               2.31-13+deb11u5          (won't fix)                      deb     CVE-2025-8058     Medium      < 0.1% (3rd)   < 0.1         
+libc6                      2.31-13+deb11u5          (won't fix)                      deb     CVE-2025-8058     Medium      < 0.1% (3rd)   < 0.1         
+libc6-dev                  2.31-13+deb11u5          (won't fix)                      deb     CVE-2025-8058     Medium      < 0.1% (3rd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2017-13716    Negligible  0.2% (41st)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2017-13716    Negligible  0.2% (41st)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2017-13716    Negligible  0.2% (41st)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2017-13716    Negligible  0.2% (41st)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2017-13716    Negligible  0.2% (41st)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2017-13716    Negligible  0.2% (41st)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1147     Negligible  0.2% (40th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1147     Negligible  0.2% (40th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1147     Negligible  0.2% (40th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1147     Negligible  0.2% (40th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1147     Negligible  0.2% (40th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1147     Negligible  0.2% (40th)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1181     Negligible  0.2% (40th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1181     Negligible  0.2% (40th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1181     Negligible  0.2% (40th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1181     Negligible  0.2% (40th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1181     Negligible  0.2% (40th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1181     Negligible  0.2% (40th)    < 0.1         
+apache2                    2.4.54-1~deb11u1                                          deb     CVE-2007-1743     Negligible  0.2% (40th)    < 0.1         
+apache2-bin                2.4.54-1~deb11u1                                          deb     CVE-2007-1743     Negligible  0.2% (40th)    < 0.1         
+apache2-data               2.4.54-1~deb11u1                                          deb     CVE-2007-1743     Negligible  0.2% (40th)    < 0.1         
+apache2-utils              2.4.54-1~deb11u1                                          deb     CVE-2007-1743     Negligible  0.2% (40th)    < 0.1         
+libsystemd0                247.3-7+deb11u1          247.3-7+deb11u2                  deb     CVE-2022-3821     Medium      < 0.1% (2nd)   < 0.1         
+libudev1                   247.3-7+deb11u1          247.3-7+deb11u2                  deb     CVE-2022-3821     Medium      < 0.1% (2nd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-0840     Negligible  0.2% (39th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-0840     Negligible  0.2% (39th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-0840     Negligible  0.2% (39th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-0840     Negligible  0.2% (39th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-0840     Negligible  0.2% (39th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-0840     Negligible  0.2% (39th)    < 0.1         
+libsqlite3-0               3.34.1-3                 (won't fix)                      deb     CVE-2025-29088    Medium      < 0.1% (2nd)   < 0.1         
+iputils-ping               3:20210202-1                                              deb     CVE-2025-47268    Negligible  0.2% (38th)    < 0.1         
+libc-bin                   2.31-13+deb11u5                                           deb     CVE-2019-9192     Negligible  0.2% (37th)    < 0.1         
+libc-dev-bin               2.31-13+deb11u5                                           deb     CVE-2019-9192     Negligible  0.2% (37th)    < 0.1         
+libc6                      2.31-13+deb11u5                                           deb     CVE-2019-9192     Negligible  0.2% (37th)    < 0.1         
+libc6-dev                  2.31-13+deb11u5                                           deb     CVE-2019-9192     Negligible  0.2% (37th)    < 0.1         
+curl                       7.74.0-1.3+deb11u3                                        deb     CVE-2021-22922    Negligible  0.2% (37th)    < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3                                        deb     CVE-2021-22922    Negligible  0.2% (37th)    < 0.1         
+libperl5.32                5.32.1-4+deb11u2                                          deb     CVE-2011-4116     Negligible  0.2% (37th)    < 0.1         
+perl                       5.32.1-4+deb11u2                                          deb     CVE-2011-4116     Negligible  0.2% (37th)    < 0.1         
+perl-base                  5.32.1-4+deb11u2                                          deb     CVE-2011-4116     Negligible  0.2% (37th)    < 0.1         
+perl-modules-5.32          5.32.1-4+deb11u2                                          deb     CVE-2011-4116     Negligible  0.2% (37th)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1178     Negligible  0.2% (37th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1178     Negligible  0.2% (37th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1178     Negligible  0.2% (37th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1178     Negligible  0.2% (37th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1178     Negligible  0.2% (37th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1178     Negligible  0.2% (37th)    < 0.1         
+login                      1:4.8.1-1                1:4.8.1-1+deb11u1                deb     CVE-2023-4641     Medium      < 0.1% (2nd)   < 0.1         
+passwd                     1:4.8.1-1                1:4.8.1-1+deb11u1                deb     CVE-2023-4641     Medium      < 0.1% (2nd)   < 0.1         
+cpp-10                     10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+g++-10                     10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+gcc-10                     10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+gcc-10-base                10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+gcc-9-base                 9.3.0-22                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libasan6                   10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libatomic1                 10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libcc1-0                   10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libgcc-10-dev              10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libgcc-s1                  10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libgomp1                   10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libitm1                    10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+liblsan0                   10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libquadmath0               10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libstdc++-10-dev           10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libstdc++6                 10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libtsan0                   10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libubsan1                  10.2.1-6                                                  deb     CVE-2023-4039     Negligible  0.2% (36th)    < 0.1         
+libc-bin                   2.31-13+deb11u5                                           deb     CVE-2019-1010022  Negligible  0.1% (35th)    < 0.1         
+libc-dev-bin               2.31-13+deb11u5                                           deb     CVE-2019-1010022  Negligible  0.1% (35th)    < 0.1         
+libc6                      2.31-13+deb11u5                                           deb     CVE-2019-1010022  Negligible  0.1% (35th)    < 0.1         
+libc6-dev                  2.31-13+deb11u5                                           deb     CVE-2019-1010022  Negligible  0.1% (35th)    < 0.1         
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u8               deb     CVE-2023-27536    Medium      < 0.1% (1st)   < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u8               deb     CVE-2023-27536    Medium      < 0.1% (1st)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1179     Negligible  0.1% (34th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1179     Negligible  0.1% (34th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1179     Negligible  0.1% (34th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1179     Negligible  0.1% (34th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1179     Negligible  0.1% (34th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1179     Negligible  0.1% (34th)    < 0.1         
+libgnutls30                3.7.1-5+deb11u2          3.7.1-5+deb11u6                  deb     CVE-2024-28835    Medium      < 0.1% (1st)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2021-20197    Negligible  0.1% (34th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2021-20197    Negligible  0.1% (34th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2021-20197    Negligible  0.1% (34th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2021-20197    Negligible  0.1% (34th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2021-20197    Negligible  0.1% (34th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2021-20197    Negligible  0.1% (34th)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1182     Negligible  0.1% (34th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1182     Negligible  0.1% (34th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1182     Negligible  0.1% (34th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1182     Negligible  0.1% (34th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1182     Negligible  0.1% (34th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1182     Negligible  0.1% (34th)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1176     Negligible  0.1% (34th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1176     Negligible  0.1% (34th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1176     Negligible  0.1% (34th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1176     Negligible  0.1% (34th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1176     Negligible  0.1% (34th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1176     Negligible  0.1% (34th)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2020-35448    Negligible  0.1% (33rd)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2020-35448    Negligible  0.1% (33rd)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2020-35448    Negligible  0.1% (33rd)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2020-35448    Negligible  0.1% (33rd)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2020-35448    Negligible  0.1% (33rd)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2020-35448    Negligible  0.1% (33rd)    < 0.1         
+libsystemd0                247.3-7+deb11u1                                           deb     CVE-2023-31437    Negligible  0.1% (32nd)    < 0.1         
+libudev1                   247.3-7+deb11u1                                           deb     CVE-2023-31437    Negligible  0.1% (32nd)    < 0.1         
+curl                       7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u8               deb     CVE-2023-27538    Medium      < 0.1% (1st)   < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3       7.74.0-1.3+deb11u8               deb     CVE-2023-27538    Medium      < 0.1% (1st)   < 0.1         
+libsepol1                  3.1-1                    3.1-1+deb11u1                    deb     CVE-2021-36087    Low         < 0.1% (3rd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1180     Negligible  0.1% (32nd)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1180     Negligible  0.1% (32nd)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1180     Negligible  0.1% (32nd)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1180     Negligible  0.1% (32nd)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1180     Negligible  0.1% (32nd)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1180     Negligible  0.1% (32nd)    < 0.1         
+libc-bin                   2.31-13+deb11u5          2.31-13+deb11u13                 deb     CVE-2025-4802     High        < 0.1% (0th)   < 0.1         
+libc-dev-bin               2.31-13+deb11u5          2.31-13+deb11u13                 deb     CVE-2025-4802     High        < 0.1% (0th)   < 0.1         
+libc6                      2.31-13+deb11u5          2.31-13+deb11u13                 deb     CVE-2025-4802     High        < 0.1% (0th)   < 0.1         
+libc6-dev                  2.31-13+deb11u5          2.31-13+deb11u13                 deb     CVE-2025-4802     High        < 0.1% (0th)   < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u6          deb     CVE-2024-56171    High        < 0.1% (0th)   < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u6          deb     CVE-2025-24928    High        < 0.1% (0th)   < 0.1         
+apache2                    2.4.54-1~deb11u1                                          deb     CVE-2001-1534     Negligible  0.1% (32nd)    < 0.1         
+apache2-bin                2.4.54-1~deb11u1                                          deb     CVE-2001-1534     Negligible  0.1% (32nd)    < 0.1         
+apache2-data               2.4.54-1~deb11u1                                          deb     CVE-2001-1534     Negligible  0.1% (32nd)    < 0.1         
+apache2-utils              2.4.54-1~deb11u1                                          deb     CVE-2001-1534     Negligible  0.1% (32nd)    < 0.1         
+libncurses6                6.2+20201114-2           (won't fix)                      deb     CVE-2025-6141     Low         < 0.1% (3rd)   < 0.1         
+libncursesw6               6.2+20201114-2           (won't fix)                      deb     CVE-2025-6141     Low         < 0.1% (3rd)   < 0.1         
+libtinfo6                  6.2+20201114-2           (won't fix)                      deb     CVE-2025-6141     Low         < 0.1% (3rd)   < 0.1         
+ncurses-base               6.2+20201114-2           (won't fix)                      deb     CVE-2025-6141     Low         < 0.1% (3rd)   < 0.1         
+ncurses-bin                6.2+20201114-2           (won't fix)                      deb     CVE-2025-6141     Low         < 0.1% (3rd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2018-20673    Negligible  0.1% (31st)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2018-20673    Negligible  0.1% (31st)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2018-20673    Negligible  0.1% (31st)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2018-20673    Negligible  0.1% (31st)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2018-20673    Negligible  0.1% (31st)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2018-20673    Negligible  0.1% (31st)    < 0.1         
+libphp                     7.4.33                   *8.1.32, 8.2.28, 8.3.19, 8.4.5   binary  CVE-2025-1219     Medium      < 0.1% (1st)   < 0.1         
+php-cli                    7.4.33                   *8.1.32, 8.2.28, 8.3.19, 8.4.5   binary  CVE-2025-1219     Medium      < 0.1% (1st)   < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3  2.9.10+dfsg-6.7+deb11u8          deb     CVE-2025-6170     Low         < 0.1% (3rd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2021-32256    Negligible  0.1% (30th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2021-32256    Negligible  0.1% (30th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2021-32256    Negligible  0.1% (30th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2021-32256    Negligible  0.1% (30th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2021-32256    Negligible  0.1% (30th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2021-32256    Negligible  0.1% (30th)    < 0.1         
+libldap-2.4-2              2.4.57+dfsg-3+deb11u1                                     deb     CVE-2017-14159    Negligible  0.1% (30th)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2019-1010204  Negligible  0.1% (29th)    < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2019-1010204  Negligible  0.1% (29th)    < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2019-1010204  Negligible  0.1% (29th)    < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2019-1010204  Negligible  0.1% (29th)    < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2019-1010204  Negligible  0.1% (29th)    < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2019-1010204  Negligible  0.1% (29th)    < 0.1         
+libsepol1                  3.1-1                    3.1-1+deb11u1                    deb     CVE-2021-36085    Low         < 0.1% (2nd)   < 0.1         
+libsepol1                  3.1-1                    3.1-1+deb11u1                    deb     CVE-2021-36086    Low         < 0.1% (2nd)   < 0.1         
+libsepol1                  3.1-1                    3.1-1+deb11u1                    deb     CVE-2021-36084    Low         < 0.1% (2nd)   < 0.1         
+libsystemd0                247.3-7+deb11u1                                           deb     CVE-2023-31438    Negligible  0.1% (28th)    < 0.1         
+libudev1                   247.3-7+deb11u1                                           deb     CVE-2023-31438    Negligible  0.1% (28th)    < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2020-19726    Negligible  < 0.1% (27th)  < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2020-19726    Negligible  < 0.1% (27th)  < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2020-19726    Negligible  < 0.1% (27th)  < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2020-19726    Negligible  < 0.1% (27th)  < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2020-19726    Negligible  < 0.1% (27th)  < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2020-19726    Negligible  < 0.1% (27th)  < 0.1         
+gpgv                       2.2.27-2+deb11u2         (won't fix)                      deb     CVE-2025-30258    Low         < 0.1% (2nd)   < 0.1         
+libpcre3                   2:8.39-13                                                 deb     CVE-2017-16231    Negligible  < 0.1% (27th)  < 0.1         
+libsystemd0                247.3-7+deb11u1                                           deb     CVE-2023-31439    Negligible  < 0.1% (27th)  < 0.1         
+libudev1                   247.3-7+deb11u1                                           deb     CVE-2023-31439    Negligible  < 0.1% (27th)  < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1149     Negligible  < 0.1% (27th)  < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1150     Negligible  < 0.1% (27th)  < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1152     Negligible  < 0.1% (27th)  < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1149     Negligible  < 0.1% (27th)  < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1150     Negligible  < 0.1% (27th)  < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1152     Negligible  < 0.1% (27th)  < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1149     Negligible  < 0.1% (27th)  < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1150     Negligible  < 0.1% (27th)  < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1152     Negligible  < 0.1% (27th)  < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1149     Negligible  < 0.1% (27th)  < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1150     Negligible  < 0.1% (27th)  < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1152     Negligible  < 0.1% (27th)  < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1149     Negligible  < 0.1% (27th)  < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1150     Negligible  < 0.1% (27th)  < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1152     Negligible  < 0.1% (27th)  < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1149     Negligible  < 0.1% (27th)  < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1150     Negligible  < 0.1% (27th)  < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1152     Negligible  < 0.1% (27th)  < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2021-20284    Negligible  < 0.1% (26th)  < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2021-20284    Negligible  < 0.1% (26th)  < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2021-20284    Negligible  < 0.1% (26th)  < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2021-20284    Negligible  < 0.1% (26th)  < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2021-20284    Negligible  < 0.1% (26th)  < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2021-20284    Negligible  < 0.1% (26th)  < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-1151     Negligible  < 0.1% (25th)  < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-1151     Negligible  < 0.1% (25th)  < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-1151     Negligible  < 0.1% (25th)  < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-1151     Negligible  < 0.1% (25th)  < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-1151     Negligible  < 0.1% (25th)  < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-1151     Negligible  < 0.1% (25th)  < 0.1         
+libprocps8                 2:3.3.17-5               (won't fix)                      deb     CVE-2023-4016     Low         < 0.1% (1st)   < 0.1         
+procps                     2:3.3.17-5               (won't fix)                      deb     CVE-2023-4016     Low         < 0.1% (1st)   < 0.1         
+libgssapi-krb5-2           1.18.3-6+deb11u2                                          deb     CVE-2024-26461    Negligible  < 0.1% (24th)  < 0.1         
+libk5crypto3               1.18.3-6+deb11u2                                          deb     CVE-2024-26461    Negligible  < 0.1% (24th)  < 0.1         
+libkrb5-3                  1.18.3-6+deb11u2                                          deb     CVE-2024-26461    Negligible  < 0.1% (24th)  < 0.1         
+libkrb5support0            1.18.3-6+deb11u2                                          deb     CVE-2024-26461    Negligible  < 0.1% (24th)  < 0.1         
+libperl5.32                5.32.1-4+deb11u2         (won't fix)                      deb     CVE-2025-40909    Medium      < 0.1% (0th)   < 0.1         
+perl                       5.32.1-4+deb11u2         (won't fix)                      deb     CVE-2025-40909    Medium      < 0.1% (0th)   < 0.1         
+perl-base                  5.32.1-4+deb11u2         (won't fix)                      deb     CVE-2025-40909    Medium      < 0.1% (0th)   < 0.1         
+perl-modules-5.32          5.32.1-4+deb11u2         (won't fix)                      deb     CVE-2025-40909    Medium      < 0.1% (0th)   < 0.1         
+apache2                    2.4.54-1~deb11u1                                          deb     CVE-2007-3303     Negligible  < 0.1% (21st)  < 0.1         
+apache2-bin                2.4.54-1~deb11u1                                          deb     CVE-2007-3303     Negligible  < 0.1% (21st)  < 0.1         
+apache2-data               2.4.54-1~deb11u1                                          deb     CVE-2007-3303     Negligible  < 0.1% (21st)  < 0.1         
+apache2-utils              2.4.54-1~deb11u1                                          deb     CVE-2007-3303     Negligible  < 0.1% (21st)  < 0.1         
+libsystemd0                247.3-7+deb11u1                                           deb     CVE-2013-4392     Negligible  < 0.1% (21st)  < 0.1         
+libudev1                   247.3-7+deb11u1                                           deb     CVE-2013-4392     Negligible  < 0.1% (21st)  < 0.1         
+curl                       7.74.0-1.3+deb11u3                                        deb     CVE-2021-22923    Negligible  < 0.1% (21st)  < 0.1         
+libcurl4                   7.74.0-1.3+deb11u3                                        deb     CVE-2021-22923    Negligible  < 0.1% (21st)  < 0.1         
+login                      1:4.8.1-1                                                 deb     CVE-2013-4235     Negligible  < 0.1% (19th)  < 0.1         
+passwd                     1:4.8.1-1                                                 deb     CVE-2013-4235     Negligible  < 0.1% (19th)  < 0.1         
+libpcre2-8-0               10.36-2+deb11u1                                           deb     CVE-2022-41409    Negligible  < 0.1% (19th)  < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2021-3530     Negligible  < 0.1% (18th)  < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2021-3530     Negligible  < 0.1% (18th)  < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2021-3530     Negligible  < 0.1% (18th)  < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2021-3530     Negligible  < 0.1% (18th)  < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2021-3530     Negligible  < 0.1% (18th)  < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2021-3530     Negligible  < 0.1% (18th)  < 0.1         
+libssl1.1                  1.1.1n-0+deb11u3                                          deb     CVE-2025-27587    Negligible  < 0.1% (18th)  < 0.1         
+openssl                    1.1.1n-0+deb11u3                                          deb     CVE-2025-27587    Negligible  < 0.1% (18th)  < 0.1         
+coreutils                  8.32-4+b1                                                 deb     CVE-2017-18018    Negligible  < 0.1% (17th)  < 0.1         
+libsystemd0                247.3-7+deb11u1                                           deb     CVE-2020-13529    Negligible  < 0.1% (17th)  < 0.1         
+libudev1                   247.3-7+deb11u1                                           deb     CVE-2020-13529    Negligible  < 0.1% (17th)  < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3                                   deb     CVE-2025-26434    Medium      < 0.1% (0th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2023-1972     Negligible  < 0.1% (13th)  < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2023-1972     Negligible  < 0.1% (13th)  < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2023-1972     Negligible  < 0.1% (13th)  < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2023-1972     Negligible  < 0.1% (13th)  < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2023-1972     Negligible  < 0.1% (13th)  < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2023-1972     Negligible  < 0.1% (13th)  < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2024-53589    Negligible  < 0.1% (12th)  < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2024-53589    Negligible  < 0.1% (12th)  < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2024-53589    Negligible  < 0.1% (12th)  < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2024-53589    Negligible  < 0.1% (12th)  < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2024-53589    Negligible  < 0.1% (12th)  < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2024-53589    Negligible  < 0.1% (12th)  < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2023-1579     Negligible  < 0.1% (11th)  < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2023-1579     Negligible  < 0.1% (11th)  < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2023-1579     Negligible  < 0.1% (11th)  < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2023-1579     Negligible  < 0.1% (11th)  < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2023-1579     Negligible  < 0.1% (11th)  < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2023-1579     Negligible  < 0.1% (11th)  < 0.1         
+libexpat1                  2.2.10-2+deb11u5                                          deb     CVE-2013-0340     Negligible  < 0.1% (10th)  < 0.1         
+re2c                       2.0.3-1                                                   deb     CVE-2018-21232    Negligible  < 0.1% (10th)  < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2021-46174    Negligible  < 0.1% (9th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2021-46174    Negligible  < 0.1% (9th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2021-46174    Negligible  < 0.1% (9th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2021-46174    Negligible  < 0.1% (9th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2021-46174    Negligible  < 0.1% (9th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2021-46174    Negligible  < 0.1% (9th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-4285     Negligible  < 0.1% (6th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-4285     Negligible  < 0.1% (6th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-4285     Negligible  < 0.1% (6th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-4285     Negligible  < 0.1% (6th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-4285     Negligible  < 0.1% (6th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-4285     Negligible  < 0.1% (6th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-35206    Negligible  < 0.1% (5th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-35206    Negligible  < 0.1% (5th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-35206    Negligible  < 0.1% (5th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-35206    Negligible  < 0.1% (5th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-35206    Negligible  < 0.1% (5th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-35206    Negligible  < 0.1% (5th)   < 0.1         
+bsdutils                   1:2.36.1-8+deb11u1                                        deb     CVE-2022-0563     Negligible  < 0.1% (5th)   < 0.1         
+libblkid1                  2.36.1-8+deb11u1                                          deb     CVE-2022-0563     Negligible  < 0.1% (5th)   < 0.1         
+libmount1                  2.36.1-8+deb11u1                                          deb     CVE-2022-0563     Negligible  < 0.1% (5th)   < 0.1         
+libsmartcols1              2.36.1-8+deb11u1                                          deb     CVE-2022-0563     Negligible  < 0.1% (5th)   < 0.1         
+libuuid1                   2.36.1-8+deb11u1                                          deb     CVE-2022-0563     Negligible  < 0.1% (5th)   < 0.1         
+mount                      2.36.1-8+deb11u1                                          deb     CVE-2022-0563     Negligible  < 0.1% (5th)   < 0.1         
+util-linux                 2.36.1-8+deb11u1                                          deb     CVE-2022-0563     Negligible  < 0.1% (5th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-45703    Negligible  < 0.1% (4th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-45703    Negligible  < 0.1% (4th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-45703    Negligible  < 0.1% (4th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-45703    Negligible  < 0.1% (4th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-45703    Negligible  < 0.1% (4th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-45703    Negligible  < 0.1% (4th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2024-57360    Negligible  < 0.1% (4th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2024-57360    Negligible  < 0.1% (4th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2024-57360    Negligible  < 0.1% (4th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2024-57360    Negligible  < 0.1% (4th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2024-57360    Negligible  < 0.1% (4th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2024-57360    Negligible  < 0.1% (4th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-8224     Negligible  < 0.1% (4th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-8224     Negligible  < 0.1% (4th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-8224     Negligible  < 0.1% (4th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-8224     Negligible  < 0.1% (4th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-8224     Negligible  < 0.1% (4th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-8224     Negligible  < 0.1% (4th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-5244     Negligible  < 0.1% (4th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-5245     Negligible  < 0.1% (4th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-5244     Negligible  < 0.1% (4th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-5245     Negligible  < 0.1% (4th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-5244     Negligible  < 0.1% (4th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-5245     Negligible  < 0.1% (4th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-5244     Negligible  < 0.1% (4th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-5245     Negligible  < 0.1% (4th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-5244     Negligible  < 0.1% (4th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-5245     Negligible  < 0.1% (4th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-5244     Negligible  < 0.1% (4th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-5245     Negligible  < 0.1% (4th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2023-25585    Negligible  < 0.1% (4th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2023-25585    Negligible  < 0.1% (4th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2023-25585    Negligible  < 0.1% (4th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2023-25585    Negligible  < 0.1% (4th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2023-25585    Negligible  < 0.1% (4th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2023-25585    Negligible  < 0.1% (4th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-44840    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-44840    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-44840    Negligible  < 0.1% (3rd)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-44840    Negligible  < 0.1% (3rd)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-44840    Negligible  < 0.1% (3rd)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-44840    Negligible  < 0.1% (3rd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2023-25586    Negligible  < 0.1% (3rd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2023-25588    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2023-25586    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2023-25588    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2023-25586    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2023-25588    Negligible  < 0.1% (3rd)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2023-25586    Negligible  < 0.1% (3rd)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2023-25588    Negligible  < 0.1% (3rd)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2023-25586    Negligible  < 0.1% (3rd)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2023-25588    Negligible  < 0.1% (3rd)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2023-25586    Negligible  < 0.1% (3rd)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2023-25588    Negligible  < 0.1% (3rd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-48065    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-48065    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-48065    Negligible  < 0.1% (3rd)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-48065    Negligible  < 0.1% (3rd)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-48065    Negligible  < 0.1% (3rd)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-48065    Negligible  < 0.1% (3rd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-8225     Negligible  < 0.1% (3rd)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-8225     Negligible  < 0.1% (3rd)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-8225     Negligible  < 0.1% (3rd)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-8225     Negligible  < 0.1% (3rd)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-8225     Negligible  < 0.1% (3rd)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-8225     Negligible  < 0.1% (3rd)   < 0.1         
+libexpat1                  2.2.10-2+deb11u5                                          deb     CVE-2023-52426    Negligible  < 0.1% (3rd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-47695    Negligible  < 0.1% (3rd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-47696    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-47695    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-47696    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-47695    Negligible  < 0.1% (3rd)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-47696    Negligible  < 0.1% (3rd)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-47695    Negligible  < 0.1% (3rd)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-47696    Negligible  < 0.1% (3rd)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-47695    Negligible  < 0.1% (3rd)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-47696    Negligible  < 0.1% (3rd)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-47695    Negligible  < 0.1% (3rd)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-47696    Negligible  < 0.1% (3rd)   < 0.1         
+coreutils                  8.32-4+b1                                                 deb     CVE-2025-5278     Negligible  < 0.1% (2nd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-38533    Negligible  < 0.1% (2nd)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-38533    Negligible  < 0.1% (2nd)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-38533    Negligible  < 0.1% (2nd)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-38533    Negligible  < 0.1% (2nd)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-38533    Negligible  < 0.1% (2nd)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-38533    Negligible  < 0.1% (2nd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2023-25584    Negligible  < 0.1% (2nd)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2023-25584    Negligible  < 0.1% (2nd)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2023-25584    Negligible  < 0.1% (2nd)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2023-25584    Negligible  < 0.1% (2nd)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2023-25584    Negligible  < 0.1% (2nd)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2023-25584    Negligible  < 0.1% (2nd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-47673    Negligible  < 0.1% (2nd)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-47673    Negligible  < 0.1% (2nd)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-47673    Negligible  < 0.1% (2nd)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-47673    Negligible  < 0.1% (2nd)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-47673    Negligible  < 0.1% (2nd)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-47673    Negligible  < 0.1% (2nd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-7546     Negligible  < 0.1% (2nd)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-7546     Negligible  < 0.1% (2nd)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-7546     Negligible  < 0.1% (2nd)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-7546     Negligible  < 0.1% (2nd)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-7546     Negligible  < 0.1% (2nd)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-7546     Negligible  < 0.1% (2nd)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-7545     Negligible  < 0.1% (1st)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-7545     Negligible  < 0.1% (1st)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-7545     Negligible  < 0.1% (1st)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-7545     Negligible  < 0.1% (1st)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-7545     Negligible  < 0.1% (1st)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-7545     Negligible  < 0.1% (1st)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-47007    Negligible  < 0.1% (1st)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-47008    Negligible  < 0.1% (1st)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-47010    Negligible  < 0.1% (1st)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-47011    Negligible  < 0.1% (1st)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-47007    Negligible  < 0.1% (1st)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-47008    Negligible  < 0.1% (1st)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-47010    Negligible  < 0.1% (1st)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-47011    Negligible  < 0.1% (1st)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-47007    Negligible  < 0.1% (1st)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-47008    Negligible  < 0.1% (1st)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-47010    Negligible  < 0.1% (1st)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-47011    Negligible  < 0.1% (1st)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-47007    Negligible  < 0.1% (1st)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-47008    Negligible  < 0.1% (1st)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-47010    Negligible  < 0.1% (1st)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-47011    Negligible  < 0.1% (1st)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-47007    Negligible  < 0.1% (1st)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-47008    Negligible  < 0.1% (1st)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-47010    Negligible  < 0.1% (1st)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-47011    Negligible  < 0.1% (1st)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-47007    Negligible  < 0.1% (1st)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-47008    Negligible  < 0.1% (1st)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-47010    Negligible  < 0.1% (1st)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-47011    Negligible  < 0.1% (1st)   < 0.1         
+gpgv                       2.2.27-2+deb11u2                                          deb     CVE-2022-3219     Negligible  < 0.1% (1st)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2025-3198     Negligible  < 0.1% (1st)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2025-3198     Negligible  < 0.1% (1st)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2025-3198     Negligible  < 0.1% (1st)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2025-3198     Negligible  < 0.1% (1st)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2025-3198     Negligible  < 0.1% (1st)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2025-3198     Negligible  < 0.1% (1st)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-48063    Negligible  < 0.1% (0th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-48063    Negligible  < 0.1% (0th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-48063    Negligible  < 0.1% (0th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-48063    Negligible  < 0.1% (0th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-48063    Negligible  < 0.1% (0th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-48063    Negligible  < 0.1% (0th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-48064    Negligible  < 0.1% (0th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-48064    Negligible  < 0.1% (0th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-48064    Negligible  < 0.1% (0th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-48064    Negligible  < 0.1% (0th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-48064    Negligible  < 0.1% (0th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-48064    Negligible  < 0.1% (0th)   < 0.1         
+binutils                   2.35.2-2                                                  deb     CVE-2022-35205    Negligible  < 0.1% (0th)   < 0.1         
+binutils-common            2.35.2-2                                                  deb     CVE-2022-35205    Negligible  < 0.1% (0th)   < 0.1         
+binutils-x86-64-linux-gnu  2.35.2-2                                                  deb     CVE-2022-35205    Negligible  < 0.1% (0th)   < 0.1         
+libbinutils                2.35.2-2                                                  deb     CVE-2022-35205    Negligible  < 0.1% (0th)   < 0.1         
+libctf-nobfd0              2.35.2-2                                                  deb     CVE-2022-35205    Negligible  < 0.1% (0th)   < 0.1         
+libctf0                    2.35.2-2                                                  deb     CVE-2022-35205    Negligible  < 0.1% (0th)   < 0.1         
+libxml2                    2.9.10+dfsg-6.7+deb11u3                                   deb     CVE-2025-8732     Negligible  < 0.1% (0th)   < 0.1         
+libgssapi-krb5-2           1.18.3-6+deb11u2         1.18.3-6+deb11u6                 deb     CVE-2025-24528    Unknown     N/A            N/A           
+libk5crypto3               1.18.3-6+deb11u2         1.18.3-6+deb11u6                 deb     CVE-2025-24528    Unknown     N/A            N/A           
+libkrb5-3                  1.18.3-6+deb11u2         1.18.3-6+deb11u6                 deb     CVE-2025-24528    Unknown     N/A            N/A           
+libkrb5support0            1.18.3-6+deb11u2         1.18.3-6+deb11u6                 deb     CVE-2025-24528    Unknown     N/A            N/A           
+libsqlite3-0               3.34.1-3                                                  deb     CVE-2025-7709     Unknown     N/A            N/A           
+libxml2                    2.9.10+dfsg-6.7+deb11u3                                   deb     CVE-2025-9714     Unknown     N/A            N/A

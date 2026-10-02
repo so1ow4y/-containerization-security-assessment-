@@ -1,0 +1,15 @@
+[submodule "projects/juice-shop"]
+	path = projects/juice-shop
+	url = https://github.com/juice-shop/juice-shop.git
+[submodule "projects/vulnapp-meera"]
+	path = projects/vulnapp-meera
+	url = https://github.com/meerasubbarao/vulnapp.git
+[submodule "projects/vulnapp-bhagavan"]
+	path = projects/vulnapp-bhagavan
+	url = https://github.com/Bhagavan-Bollina/vulnapp.git
+[submodule "projects/vulnapp-demo-poc"]
+	path = projects/vulnapp-demo-poc
+	url = https://github.com/demo-poc/vulnapp.git
+[submodule "projects/bwapp"]
+	path = projects/bwapp
+	url = https://github.com/lmoroz/bWAPP.git

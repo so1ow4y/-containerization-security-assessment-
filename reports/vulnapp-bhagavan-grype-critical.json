@@ -1,0 +1,1 @@
+[{"VulnerabilityID":"GHSA-jf85-cpcp-j695","Package":"lodash","InstalledVersion":"3.10.1","FixedVersion":"4.17.12","Severity":"Critical","Description":"Prototype Pollution in lodash","CVSS":9.1,"EPSS":0.0341,"URLs":[]}]

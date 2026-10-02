@@ -1,0 +1,1186 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-09-07T18:08:35.458985263Z",
+  "ArtifactName": "vulnapp-bhagavan-scan:latest",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 745013248,
+    "OS": {
+      "Family": "alpine",
+      "Name": "3.22.1"
+    },
+    "ImageID": "sha256:023fadf863ee84b454e90c2c7746b6b7a4d255c07893db0cf8000b2343cb556e",
+    "DiffIDs": [
+      "sha256:418dccb7d85a63a6aa574439840f7a6fa6fd2321b3e2394568a317735e867d35",
+      "sha256:aad36487a204a3d9bbff0e679d8f81909c737fec732a4b5ce0f016bf4202b0d6",
+      "sha256:072e9f1128bb5d2278bed11b3b124125ee80aa84be2d040e4c52db2dcfc6bb4a",
+      "sha256:9be171afeb3e801078b1b27bb890867e39074a63dbc82c55b604f23b4ac42d8e",
+      "sha256:2227b3597a91fad5df15fcb736ed3bd06b94a0f6e8fc4a2cdeaa66bb3fe99601",
+      "sha256:2790dba5d30f66aeec4c8de570d58c5da4f7abda040817631c1ffb9ae1a87bfa",
+      "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743",
+      "sha256:0088510f9f56cf9f763d15e0d1a4471568370165b5e15cf7563e4f81969f2a5f"
+    ],
+    "RepoTags": [
+      "vulnapp-bhagavan-scan:latest"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-09-07T18:08:20.941051863Z",
+      "history": [
+        {
+          "created": "2025-07-15T11:01:16Z",
+          "created_by": "ADD alpine-minirootfs-3.22.1-x86_64.tar.gz / # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-07-15T11:01:16Z",
+          "created_by": "CMD [\"/bin/sh\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-08-27T23:04:59Z",
+          "created_by": "ENV NODE_VERSION=24.7.0",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-08-27T23:04:59Z",
+          "created_by": "RUN /bin/sh -c addgroup -g 1000 node     \u0026\u0026 adduser -u 1000 -G node -s /bin/sh -D node     \u0026\u0026 apk add --no-cache         libstdc++     \u0026\u0026 apk add --no-cache --virtual .build-deps         curl     \u0026\u0026 ARCH= OPENSSL_ARCH='linux*' \u0026\u0026 alpineArch=\"$(apk --print-arch)\"       \u0026\u0026 case \"${alpineArch##*-}\" in         x86_64) ARCH='x64' CHECKSUM=\"c8ea8de5a9314a582504d07c4c8542f1f13517cd3d8149d3d8de3a99ae8ba2ca\" OPENSSL_ARCH=linux-x86_64;;         x86) OPENSSL_ARCH=linux-elf;;         aarch64) OPENSSL_ARCH=linux-aarch64;;         arm*) OPENSSL_ARCH=linux-armv4;;         ppc64le) OPENSSL_ARCH=linux-ppc64le;;         s390x) OPENSSL_ARCH=linux-s390x;;         *) ;;       esac   \u0026\u0026 if [ -n \"${CHECKSUM}\" ]; then     set -eu;     curl -fsSLO --compressed \"https://unofficial-builds.nodejs.org/download/release/v$NODE_VERSION/node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\";     echo \"$CHECKSUM  node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" | sha256sum -c -       \u0026\u0026 tar -xJf \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\" -C /usr/local --strip-components=1 --no-same-owner       \u0026\u0026 ln -s /usr/local/bin/node /usr/local/bin/nodejs;   else     echo \"Building from source\"     \u0026\u0026 apk add --no-cache --virtual .build-deps-full         binutils-gold         g++         gcc         gnupg         libgcc         linux-headers         make         python3         py-setuptools     \u0026\u0026 export GNUPGHOME=\"$(mktemp -d)\"     \u0026\u0026 for key in       5BE8A3F6C8A5C01D106C0AD820B1A390B168D356       DD792F5973C6DE52C432CBDAC77ABFA00DDBF2B7       CC68F5A3106FF448322E48ED27F5E38D5B0A215F       8FCCA13FEF1D0C2E91008E09770F7A9A5AE15600       890C08DB8579162FEE0DF9DB8BEAB4DFCF555EF4       C82FA3AE1CBEDC6BE46B9360C43CEC45C17AB93C       108F52B48DB57BB0CC439B2997B01419BD92F80A       A363A499291CBBC940DD62E41F10027AF002F8B0     ; do       { gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$key\" \u0026\u0026 gpg --batch --fingerprint \"$key\"; } ||       { gpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\" \u0026\u0026 gpg --batch --fingerprint \"$key\"; } ;     done     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 curl -fsSLO --compressed \"https://nodejs.org/dist/v$NODE_VERSION/SHASUMS256.txt.asc\"     \u0026\u0026 gpg --batch --decrypt --output SHASUMS256.txt SHASUMS256.txt.asc     \u0026\u0026 gpgconf --kill all     \u0026\u0026 rm -rf \"$GNUPGHOME\"     \u0026\u0026 grep \" node-v$NODE_VERSION.tar.xz\\$\" SHASUMS256.txt | sha256sum -c -     \u0026\u0026 tar -xf \"node-v$NODE_VERSION.tar.xz\"     \u0026\u0026 cd \"node-v$NODE_VERSION\"     \u0026\u0026 ./configure     \u0026\u0026 make -j$(getconf _NPROCESSORS_ONLN) V=     \u0026\u0026 make install     \u0026\u0026 apk del .build-deps-full     \u0026\u0026 cd ..     \u0026\u0026 rm -Rf \"node-v$NODE_VERSION\"     \u0026\u0026 rm \"node-v$NODE_VERSION.tar.xz\" SHASUMS256.txt.asc SHASUMS256.txt;   fi   \u0026\u0026 rm -f \"node-v$NODE_VERSION-linux-$ARCH-musl.tar.xz\"   \u0026\u0026 find /usr/local/include/node/openssl/archs -mindepth 1 -maxdepth 1 ! -name \"$OPENSSL_ARCH\" -exec rm -rf {} \\;   \u0026\u0026 apk del .build-deps   \u0026\u0026 node --version   \u0026\u0026 npm --version   \u0026\u0026 rm -rf /tmp/* # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-27T23:04:59Z",
+          "created_by": "ENV YARN_VERSION=1.22.22",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-08-27T23:04:59Z",
+          "created_by": "RUN /bin/sh -c apk add --no-cache --virtual .build-deps-yarn curl gnupg tar   \u0026\u0026 export GNUPGHOME=\"$(mktemp -d)\"   \u0026\u0026 for key in     6A010C5166006599AA17F08146C2130DFD2497F5   ; do     { gpg --batch --keyserver hkps://keys.openpgp.org --recv-keys \"$key\" \u0026\u0026 gpg --batch --fingerprint \"$key\"; } ||     { gpg --batch --keyserver keyserver.ubuntu.com --recv-keys \"$key\" \u0026\u0026 gpg --batch --fingerprint \"$key\"; } ;   done   \u0026\u0026 curl -fsSLO --compressed \"https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$YARN_VERSION.tar.gz\"   \u0026\u0026 curl -fsSLO --compressed \"https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$YARN_VERSION.tar.gz.asc\"   \u0026\u0026 gpg --batch --verify yarn-v$YARN_VERSION.tar.gz.asc yarn-v$YARN_VERSION.tar.gz   \u0026\u0026 gpgconf --kill all   \u0026\u0026 rm -rf \"$GNUPGHOME\"   \u0026\u0026 mkdir -p /opt   \u0026\u0026 tar -xzf yarn-v$YARN_VERSION.tar.gz -C /opt/   \u0026\u0026 ln -s /opt/yarn-v$YARN_VERSION/bin/yarn /usr/local/bin/yarn   \u0026\u0026 ln -s /opt/yarn-v$YARN_VERSION/bin/yarnpkg /usr/local/bin/yarnpkg   \u0026\u0026 rm yarn-v$YARN_VERSION.tar.gz.asc yarn-v$YARN_VERSION.tar.gz   \u0026\u0026 apk del .build-deps-yarn   \u0026\u0026 yarn --version   \u0026\u0026 rm -rf /tmp/* # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-27T23:04:59Z",
+          "created_by": "COPY docker-entrypoint.sh /usr/local/bin/ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-08-27T23:04:59Z",
+          "created_by": "ENTRYPOINT [\"docker-entrypoint.sh\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-08-27T23:04:59Z",
+          "created_by": "CMD [\"node\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-07T18:07:04Z",
+          "created_by": "WORKDIR /usr/nodeapp",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-07T18:07:04Z",
+          "created_by": "COPY ./package.json ./ # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-07T18:08:18Z",
+          "created_by": "RUN /bin/sh -c npm install # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-07T18:08:20Z",
+          "created_by": "COPY . . # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-09-07T18:08:20Z",
+          "created_by": "CMD [\"npm\" \"start\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-09-07T18:08:20Z",
+          "created_by": "EXPOSE map[3000/tcp:{}]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:418dccb7d85a63a6aa574439840f7a6fa6fd2321b3e2394568a317735e867d35",
+          "sha256:aad36487a204a3d9bbff0e679d8f81909c737fec732a4b5ce0f016bf4202b0d6",
+          "sha256:072e9f1128bb5d2278bed11b3b124125ee80aa84be2d040e4c52db2dcfc6bb4a",
+          "sha256:9be171afeb3e801078b1b27bb890867e39074a63dbc82c55b604f23b4ac42d8e",
+          "sha256:2227b3597a91fad5df15fcb736ed3bd06b94a0f6e8fc4a2cdeaa66bb3fe99601",
+          "sha256:2790dba5d30f66aeec4c8de570d58c5da4f7abda040817631c1ffb9ae1a87bfa",
+          "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743",
+          "sha256:0088510f9f56cf9f763d15e0d1a4471568370165b5e15cf7563e4f81969f2a5f"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "npm",
+          "start"
+        ],
+        "Entrypoint": [
+          "docker-entrypoint.sh"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "NODE_VERSION=24.7.0",
+          "YARN_VERSION=1.22.22"
+        ],
+        "WorkingDir": "/usr/nodeapp",
+        "ExposedPorts": {
+          "3000/tcp": {}
+        },
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 8596480,
+        "DiffID": "sha256:418dccb7d85a63a6aa574439840f7a6fa6fd2321b3e2394568a317735e867d35"
+      },
+      {
+        "Size": 156627456,
+        "DiffID": "sha256:aad36487a204a3d9bbff0e679d8f81909c737fec732a4b5ce0f016bf4202b0d6"
+      },
+      {
+        "Size": 5389824,
+        "DiffID": "sha256:072e9f1128bb5d2278bed11b3b124125ee80aa84be2d040e4c52db2dcfc6bb4a"
+      },
+      {
+        "Size": 3584,
+        "DiffID": "sha256:9be171afeb3e801078b1b27bb890867e39074a63dbc82c55b604f23b4ac42d8e"
+      },
+      {
+        "Size": 2048,
+        "DiffID": "sha256:2227b3597a91fad5df15fcb736ed3bd06b94a0f6e8fc4a2cdeaa66bb3fe99601"
+      },
+      {
+        "Size": 3584,
+        "DiffID": "sha256:2790dba5d30f66aeec4c8de570d58c5da4f7abda040817631c1ffb9ae1a87bfa"
+      },
+      {
+        "Size": 573186560,
+        "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+      },
+      {
+        "Size": 1203712,
+        "DiffID": "sha256:0088510f9f56cf9f763d15e0d1a4471568370165b5e15cf7563e4f81969f2a5f"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "vulnapp-bhagavan-scan:latest (alpine 3.22.1)",
+      "Class": "os-pkgs",
+      "Type": "alpine"
+    },
+    {
+      "Target": "Node.js",
+      "Class": "lang-pkgs",
+      "Type": "node-pkg",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2022-21222",
+          "PkgID": "css-what@1.0.0",
+          "PkgName": "css-what",
+          "PkgPath": "usr/nodeapp/node_modules/css-what/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/css-what@1.0.0",
+            "UID": "ed9996ed6aab2810"
+          },
+          "InstalledVersion": "1.0.0",
+          "FixedVersion": "2.1.3",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-21222",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "css-what: ReDoS due to insecure regular expression",
+          "Description": "The package css-what before 2.1.3 are vulnerable to Regular Expression Denial of Service (ReDoS) due to the usage of insecure regular expression in the re_attr variable of index.js. The exploitation of this vulnerability could be triggered via the parse function.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-1333"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2022-21222",
+            "https://github.com/fb55/css-what",
+            "https://github.com/fb55/css-what/blob/a38effd5a8f5506d75c7f8f13cbd8c76248a3860/index.js#23L12",
+            "https://github.com/fb55/css-what/blob/a38effd5a8f5506d75c7f8f13cbd8c76248a3860/index.js%23L12",
+            "https://github.com/fb55/css-what/commit/dc510929790da6617e7aa93a616498b22f6a6b72",
+            "https://lists.debian.org/debian-lts-announce/2023/03/msg00001.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-21222",
+            "https://security.snyk.io/vuln/SNYK-JS-CSSWHAT-3035488",
+            "https://ubuntu.com/security/notices/USN-6065-1",
+            "https://www.cve.org/CVERecord?id=CVE-2022-21222"
+          ],
+          "PublishedDate": "2022-09-30T05:15:08.713Z",
+          "LastModifiedDate": "2025-05-20T16:15:21.037Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2022-33987",
+          "PkgID": "got@6.7.1",
+          "PkgName": "got",
+          "PkgPath": "usr/nodeapp/node_modules/got/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/got@6.7.1",
+            "UID": "7be3ebe9d2dcab09"
+          },
+          "InstalledVersion": "6.7.1",
+          "FixedVersion": "12.1.0, 11.8.5",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-33987",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-got: missing verification of requested URLs allows redirects to UNIX sockets",
+          "Description": "The got package before 12.1.0 (also fixed in 11.8.5) for Node.js allows a redirect to a UNIX socket.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "alma": 2,
+            "ghsa": 2,
+            "nvd": 2,
+            "oracle-oval": 2,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V2Score": 5,
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/errata/RHSA-2022:6595",
+            "https://access.redhat.com/security/cve/CVE-2022-33987",
+            "https://bugzilla.redhat.com/1907444",
+            "https://bugzilla.redhat.com/1945459",
+            "https://bugzilla.redhat.com/1964461",
+            "https://bugzilla.redhat.com/2007557",
+            "https://bugzilla.redhat.com/2098556",
+            "https://bugzilla.redhat.com/2102001",
+            "https://bugzilla.redhat.com/2105422",
+            "https://bugzilla.redhat.com/2105426",
+            "https://bugzilla.redhat.com/2105428",
+            "https://bugzilla.redhat.com/2105430",
+            "https://errata.almalinux.org/9/ALSA-2022-6595.html",
+            "https://github.com/sindresorhus/got",
+            "https://github.com/sindresorhus/got/commit/861ccd9ac2237df762a9e2beed7edd88c60782dc",
+            "https://github.com/sindresorhus/got/compare/v12.0.3...v12.1.0",
+            "https://github.com/sindresorhus/got/pull/2047",
+            "https://github.com/sindresorhus/got/releases/tag/v11.8.5",
+            "https://github.com/sindresorhus/got/releases/tag/v12.1.0",
+            "https://linux.oracle.com/cve/CVE-2022-33987.html",
+            "https://linux.oracle.com/errata/ELSA-2022-6595.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-33987",
+            "https://www.cve.org/CVERecord?id=CVE-2022-33987"
+          ],
+          "PublishedDate": "2022-06-18T21:15:07.933Z",
+          "LastModifiedDate": "2024-11-21T07:08:43.62Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2016-20018",
+          "PkgID": "knex@1.0.7",
+          "PkgName": "knex",
+          "PkgPath": "usr/nodeapp/node_modules/knex/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/knex@1.0.7",
+            "UID": "f006724b959613a3"
+          },
+          "InstalledVersion": "1.0.7",
+          "FixedVersion": "2.4.0",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2016-20018",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "Knex.js has a limited SQL injection vulnerability",
+          "Description": "Knex Knex.js through 2.3.0 has a limited SQL injection vulnerability that can be exploited to ignore the WHERE clause of a SQL query.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-89"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 7.5
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://github.com/knex/knex",
+            "https://github.com/knex/knex/commit/e145322da92749be7749f9ade5b5f5a66d6586a4",
+            "https://github.com/knex/knex/issues/1227",
+            "https://github.com/knex/knex/pull/5417",
+            "https://github.com/knex/knex/releases/tag/2.4.0",
+            "https://nvd.nist.gov/vuln/detail/CVE-2016-20018",
+            "https://www.ghostccamm.com/blog/knex_sqli",
+            "https://www.ghostccamm.com/blog/knex_sqli/"
+          ],
+          "PublishedDate": "2022-12-19T09:15:09.29Z",
+          "LastModifiedDate": "2024-11-21T02:47:34.203Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2019-10744",
+          "PkgID": "lodash@3.10.1",
+          "PkgName": "lodash",
+          "PkgPath": "usr/nodeapp/node_modules/cheerio/node_modules/lodash/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash@3.10.1",
+            "UID": "a3dc5a84b5002884"
+          },
+          "InstalledVersion": "3.10.1",
+          "FixedVersion": "4.17.12",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-10744",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-lodash: prototype pollution in defaultsDeep function leading to modifying properties",
+          "Description": "Versions of lodash lower than 4.17.12 are vulnerable to Prototype Pollution. The function defaultsDeep could be tricked into adding or modifying properties of Object.prototype using a constructor payload.",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-1321"
+          ],
+          "VendorSeverity": {
+            "ghsa": 4,
+            "nvd": 4,
+            "redhat": 3,
+            "ruby-advisory-db": 4
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V3Score": 9.1
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V2Score": 6.4,
+              "V3Score": 9.1
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V3Score": 9.1
+            }
+          },
+          "References": [
+            "https://access.redhat.com/errata/RHSA-2019:3024",
+            "https://access.redhat.com/security/cve/CVE-2019-10744",
+            "https://github.com/advisories/GHSA-jf85-cpcp-j695",
+            "https://github.com/lodash/lodash/pull/4336",
+            "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/lodash-rails/CVE-2019-10744.yml",
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-10744",
+            "https://security.netapp.com/advisory/ntap-20191004-0005",
+            "https://security.netapp.com/advisory/ntap-20191004-0005/",
+            "https://snyk.io/vuln/SNYK-JS-LODASH-450202",
+            "https://support.f5.com/csp/article/K47105354",
+            "https://support.f5.com/csp/article/K47105354?utm_source=f5support\u0026amp%3Butm_medium=RSS",
+            "https://support.f5.com/csp/article/K47105354?utm_source=f5support\u0026amp;utm_medium=RSS",
+            "https://www.cve.org/CVERecord?id=CVE-2019-10744",
+            "https://www.npmjs.com/advisories/1065",
+            "https://www.oracle.com/security-alerts/cpujan2021.html",
+            "https://www.oracle.com/security-alerts/cpuoct2020.html"
+          ],
+          "PublishedDate": "2019-07-26T00:15:11.217Z",
+          "LastModifiedDate": "2024-11-21T04:19:50.123Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2018-16487",
+          "PkgID": "lodash@3.10.1",
+          "PkgName": "lodash",
+          "PkgPath": "usr/nodeapp/node_modules/cheerio/node_modules/lodash/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash@3.10.1",
+            "UID": "a3dc5a84b5002884"
+          },
+          "InstalledVersion": "3.10.1",
+          "FixedVersion": "\u003e=4.17.11",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "nodejs-security-wg",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-16487",
+          "DataSource": {
+            "ID": "nodejs-security-wg",
+            "Name": "Node.js Ecosystem Security Working Group",
+            "URL": "https://github.com/nodejs/security-wg"
+          },
+          "Title": "lodash: Prototype pollution in utilities function",
+          "Description": "A prototype pollution vulnerability was found in lodash \u003c4.17.11 where the functions merge, mergeWith, and defaultsDeep can be tricked into adding or modifying properties of Object.prototype.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nodejs-security-wg": 3,
+            "nvd": 2,
+            "redhat": 2,
+            "ruby-advisory-db": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V2Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "V2Score": 6.8,
+              "V3Score": 5.6
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "V3Score": 5.6
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2018-16487",
+            "https://github.com/advisories/GHSA-4xc9-xhrj-v574",
+            "https://github.com/lodash/lodash/commit/90e6199a161b6445b01454517b40ef65ebecd2ad",
+            "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/lodash-rails/CVE-2018-16487.yml",
+            "https://hackerone.com/reports/380873",
+            "https://nvd.nist.gov/vuln/detail/CVE-2018-16487",
+            "https://security.netapp.com/advisory/ntap-20190919-0004",
+            "https://security.netapp.com/advisory/ntap-20190919-0004/",
+            "https://www.cve.org/CVERecord?id=CVE-2018-16487",
+            "https://www.npmjs.com/advisories/782"
+          ],
+          "PublishedDate": "2019-02-01T18:29:00.943Z",
+          "LastModifiedDate": "2024-11-21T03:52:51.17Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2020-8203",
+          "PkgID": "lodash@3.10.1",
+          "PkgName": "lodash",
+          "PkgPath": "usr/nodeapp/node_modules/cheerio/node_modules/lodash/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash@3.10.1",
+            "UID": "a3dc5a84b5002884"
+          },
+          "InstalledVersion": "3.10.1",
+          "FixedVersion": "4.17.19",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2020-8203",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-lodash: prototype pollution in zipObjectDeep function",
+          "Description": "Prototype pollution attack when using _.zipObjectDeep in lodash before 4.17.20.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-770",
+            "CWE-1321"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2,
+            "ruby-advisory-db": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V3Score": 7.4
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V2Score": 5.8,
+              "V3Score": 7.4
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V3Score": 7.4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2020-8203",
+            "https://github.com/advisories/GHSA-p6mc-m468-83gw",
+            "https://github.com/github/advisory-database/pull/2884",
+            "https://github.com/lodash/lodash",
+            "https://github.com/lodash/lodash/commit/c84fe82760fb2d3e03a63379b297a1cc1a2fce12",
+            "https://github.com/lodash/lodash/issues/4744",
+            "https://github.com/lodash/lodash/issues/4874",
+            "https://github.com/lodash/lodash/wiki/Changelog#v41719",
+            "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/lodash-rails/CVE-2020-8203.yml",
+            "https://hackerone.com/reports/712065",
+            "https://hackerone.com/reports/864701",
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-8203",
+            "https://security.netapp.com/advisory/ntap-20200724-0006",
+            "https://security.netapp.com/advisory/ntap-20200724-0006/",
+            "https://web.archive.org/web/20210914001339/https://github.com/lodash/lodash/issues/4744",
+            "https://www.cve.org/CVERecord?id=CVE-2020-8203",
+            "https://www.npmjs.com/advisories/1523",
+            "https://www.oracle.com//security-alerts/cpujul2021.html",
+            "https://www.oracle.com/security-alerts/cpuApr2021.html",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://www.oracle.com/security-alerts/cpuoct2021.html"
+          ],
+          "PublishedDate": "2020-07-15T17:15:11.797Z",
+          "LastModifiedDate": "2024-11-21T05:38:29.79Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2021-23337",
+          "PkgID": "lodash@3.10.1",
+          "PkgName": "lodash",
+          "PkgPath": "usr/nodeapp/node_modules/cheerio/node_modules/lodash/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash@3.10.1",
+            "UID": "a3dc5a84b5002884"
+          },
+          "InstalledVersion": "3.10.1",
+          "FixedVersion": "4.17.21",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-23337",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-lodash: command injection via template",
+          "Description": "Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-94"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2,
+            "ruby-advisory-db": 3,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 7.2
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V2Score": 6.5,
+              "V3Score": 7.2
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 7.2
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2021-23337",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf",
+            "https://github.com/advisories/GHSA-35jh-r3h4-6jhm",
+            "https://github.com/lodash/lodash",
+            "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js",
+            "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js#L14851",
+            "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js%23L14851",
+            "https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c",
+            "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/lodash-rails/CVE-2021-23337.yml",
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-23337",
+            "https://security.netapp.com/advisory/ntap-20210312-0006",
+            "https://security.netapp.com/advisory/ntap-20210312-0006/",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGFUJIONWEBJARS-1074932",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074930",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074928",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBLODASH-1074931",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074929",
+            "https://snyk.io/vuln/SNYK-JS-LODASH-1040724",
+            "https://www.cve.org/CVERecord?id=CVE-2021-23337",
+            "https://www.oracle.com//security-alerts/cpujul2021.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://www.oracle.com/security-alerts/cpujul2022.html",
+            "https://www.oracle.com/security-alerts/cpuoct2021.html"
+          ],
+          "PublishedDate": "2021-02-15T13:15:12.56Z",
+          "LastModifiedDate": "2024-11-21T05:51:31.643Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2019-1010266",
+          "PkgID": "lodash@3.10.1",
+          "PkgName": "lodash",
+          "PkgPath": "usr/nodeapp/node_modules/cheerio/node_modules/lodash/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash@3.10.1",
+            "UID": "a3dc5a84b5002884"
+          },
+          "InstalledVersion": "3.10.1",
+          "FixedVersion": "4.17.11",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-1010266",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "lodash: uncontrolled resource consumption in Data handler causing denial of service",
+          "Description": "lodash prior to 4.17.11 is affected by: CWE-400: Uncontrolled Resource Consumption. The impact is: Denial of service. The component is: Date handler. The attack vector is: Attacker provides very long strings, which the library attempts to match using a regular expression. The fixed version is: 4.17.11.",
+          "Severity": "MEDIUM",
+          "CweIDs": [
+            "CWE-400",
+            "CWE-770"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 1,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+              "V2Score": 4,
+              "V3Score": 6.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.0/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 4.4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2019-1010266",
+            "https://github.com/advisories/GHSA-x5rq-j2xg-h7qm",
+            "https://github.com/lodash/lodash/commit/5c08f18d365b64063bfbfa686cbb97cdd6267347",
+            "https://github.com/lodash/lodash/issues/3359",
+            "https://github.com/lodash/lodash/wiki/Changelog",
+            "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/lodash-rails/CVE-2019-1010266.yml",
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-1010266",
+            "https://security.netapp.com/advisory/ntap-20190919-0004",
+            "https://security.netapp.com/advisory/ntap-20190919-0004/",
+            "https://snyk.io/vuln/SNYK-JS-LODASH-73639",
+            "https://www.cve.org/CVERecord?id=CVE-2019-1010266"
+          ],
+          "PublishedDate": "2019-07-17T21:15:10.873Z",
+          "LastModifiedDate": "2024-11-21T04:18:06.797Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2020-28500",
+          "PkgID": "lodash@3.10.1",
+          "PkgName": "lodash",
+          "PkgPath": "usr/nodeapp/node_modules/cheerio/node_modules/lodash/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash@3.10.1",
+            "UID": "a3dc5a84b5002884"
+          },
+          "InstalledVersion": "3.10.1",
+          "FixedVersion": "4.17.21",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2020-28500",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-lodash: ReDoS via the toNumber, trim and trimEnd functions",
+          "Description": "Lodash versions prior to 4.17.21 are vulnerable to Regular Expression Denial of Service (ReDoS) via the toNumber, trim and trimEnd functions.",
+          "Severity": "MEDIUM",
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nvd": 2,
+            "redhat": 2,
+            "ruby-advisory-db": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V2Score": 5,
+              "V3Score": 5.3
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2020-28500",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf",
+            "https://github.com/advisories/GHSA-29mw-wpgm-hmr9",
+            "https://github.com/lodash/lodash",
+            "https://github.com/lodash/lodash/blob/npm/trimEnd.js",
+            "https://github.com/lodash/lodash/blob/npm/trimEnd.js#L8",
+            "https://github.com/lodash/lodash/blob/npm/trimEnd.js%23L8",
+            "https://github.com/lodash/lodash/commit/c4847ebe7d14540bb28a8b932a9ce1b9ecbfee1a",
+            "https://github.com/lodash/lodash/pull/5065",
+            "https://github.com/lodash/lodash/pull/5065/commits/02906b8191d3c100c193fe6f7b27d1c40f200bb7",
+            "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/lodash-rails/CVE-2020-28500.yml",
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-28500",
+            "https://security.netapp.com/advisory/ntap-20210312-0006",
+            "https://security.netapp.com/advisory/ntap-20210312-0006/",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGFUJIONWEBJARS-1074896",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074894",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074892",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBLODASH-1074895",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074893",
+            "https://snyk.io/vuln/SNYK-JS-LODASH-1018905",
+            "https://www.cve.org/CVERecord?id=CVE-2020-28500",
+            "https://www.oracle.com//security-alerts/cpujul2021.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://www.oracle.com/security-alerts/cpujul2022.html",
+            "https://www.oracle.com/security-alerts/cpuoct2021.html"
+          ],
+          "PublishedDate": "2021-02-15T11:15:12.397Z",
+          "LastModifiedDate": "2024-11-21T05:22:55.053Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2018-3721",
+          "PkgID": "lodash@3.10.1",
+          "PkgName": "lodash",
+          "PkgPath": "usr/nodeapp/node_modules/cheerio/node_modules/lodash/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash@3.10.1",
+            "UID": "a3dc5a84b5002884"
+          },
+          "InstalledVersion": "3.10.1",
+          "FixedVersion": "\u003e=4.17.5",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "nodejs-security-wg",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-3721",
+          "DataSource": {
+            "ID": "nodejs-security-wg",
+            "Name": "Node.js Ecosystem Security Working Group",
+            "URL": "https://github.com/nodejs/security-wg"
+          },
+          "Title": "lodash: Prototype pollution in utilities function",
+          "Description": "lodash node module before 4.17.5 suffers from a Modification of Assumed-Immutable Data (MAID) vulnerability via defaultsDeep, merge, and mergeWith functions, which allows a malicious user to modify the prototype of \"Object\" via __proto__, causing the addition or modification of an existing property that will exist on all objects.",
+          "Severity": "LOW",
+          "CweIDs": [
+            "CWE-471",
+            "CWE-1321"
+          ],
+          "VendorSeverity": {
+            "ghsa": 2,
+            "nodejs-security-wg": 1,
+            "nvd": 2,
+            "redhat": 1,
+            "ruby-advisory-db": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+              "V3Score": 6.5
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+              "V2Score": 4,
+              "V3Score": 6.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 2.9
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2018-3721",
+            "https://github.com/advisories/GHSA-fvqr-27wr-82fm",
+            "https://github.com/lodash/lodash/commit/d8e069cc3410082e44eb18fcf8e7f3d08ebe1d4a",
+            "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/lodash-rails/CVE-2018-3721.yml",
+            "https://hackerone.com/reports/310443",
+            "https://nvd.nist.gov/vuln/detail/CVE-2018-3721",
+            "https://security.netapp.com/advisory/ntap-20190919-0004",
+            "https://security.netapp.com/advisory/ntap-20190919-0004/",
+            "https://snyk.io/vuln/npm:lodash:20180130",
+            "https://www.cve.org/CVERecord?id=CVE-2018-3721",
+            "https://www.npmjs.com/advisories/577"
+          ],
+          "PublishedDate": "2018-06-07T02:29:08.317Z",
+          "LastModifiedDate": "2024-11-21T04:05:56.943Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2021-23337",
+          "PkgID": "lodash.template@4.5.0",
+          "PkgName": "lodash.template",
+          "PkgPath": "usr/nodeapp/node_modules/lodash.template/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash.template@4.5.0",
+            "UID": "95082cd88d3c60b5"
+          },
+          "InstalledVersion": "4.5.0",
+          "Status": "affected",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-23337",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-lodash: command injection via template",
+          "Description": "Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-94"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2,
+            "ruby-advisory-db": 3,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 7.2
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V2Score": 6.5,
+              "V3Score": 7.2
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 7.2
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2021-23337",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf",
+            "https://github.com/advisories/GHSA-35jh-r3h4-6jhm",
+            "https://github.com/lodash/lodash",
+            "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js",
+            "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js#L14851",
+            "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js%23L14851",
+            "https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c",
+            "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/lodash-rails/CVE-2021-23337.yml",
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-23337",
+            "https://security.netapp.com/advisory/ntap-20210312-0006",
+            "https://security.netapp.com/advisory/ntap-20210312-0006/",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGFUJIONWEBJARS-1074932",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074930",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074928",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBLODASH-1074931",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074929",
+            "https://snyk.io/vuln/SNYK-JS-LODASH-1040724",
+            "https://www.cve.org/CVERecord?id=CVE-2021-23337",
+            "https://www.oracle.com//security-alerts/cpujul2021.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://www.oracle.com/security-alerts/cpujul2022.html",
+            "https://www.oracle.com/security-alerts/cpuoct2021.html"
+          ],
+          "PublishedDate": "2021-02-15T13:15:12.56Z",
+          "LastModifiedDate": "2024-11-21T05:51:31.643Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2021-3803",
+          "PkgID": "nth-check@1.0.2",
+          "PkgName": "nth-check",
+          "PkgPath": "usr/nodeapp/node_modules/nth-check/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/nth-check@1.0.2",
+            "UID": "ec0bff753bc313d2"
+          },
+          "InstalledVersion": "1.0.2",
+          "FixedVersion": "2.0.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-3803",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-nth-check: inefficient regular expression complexity",
+          "Description": "nth-check is vulnerable to Inefficient Regular Expression Complexity",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-1333"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V2Score": 5,
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2021-3803",
+            "https://github.com/advisories/GHSA-rp65-9cf3-cjxr",
+            "https://github.com/fb55/nth-check",
+            "https://github.com/fb55/nth-check/commit/9894c1d2010870c351f66c6f6efcf656e26bb726",
+            "https://github.com/fb55/nth-check/commit/9894c1d2010870c351f66c6f6efcf656e26bb726 (v2.0.1)",
+            "https://huntr.dev/bounties/8cf8cc06-d2cf-4b4e-b42c-99fafb0b04d0",
+            "https://huntr.dev/bounties/8cf8cc06-d2cf-4b4e-b42c-99fafb0b04d0/",
+            "https://lists.debian.org/debian-lts-announce/2023/05/msg00023.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-3803",
+            "https://ubuntu.com/security/notices/USN-6114-1",
+            "https://www.cve.org/CVERecord?id=CVE-2021-3803"
+          ],
+          "PublishedDate": "2021-09-17T07:15:09.153Z",
+          "LastModifiedDate": "2024-11-21T06:22:28.873Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2022-25883",
+          "PkgID": "semver@7.0.0",
+          "PkgName": "semver",
+          "PkgPath": "usr/nodeapp/node_modules/simple-update-notifier/node_modules/semver/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/semver@7.0.0",
+            "UID": "e555b39781f1228a"
+          },
+          "InstalledVersion": "7.0.0",
+          "FixedVersion": "7.5.2, 6.3.1, 5.7.2",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-25883",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-semver: Regular expression denial of service",
+          "Description": "Versions of the package semver before 7.5.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function new Range, when untrusted user data is provided as a range.\r\r\r",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-1333"
+          ],
+          "VendorSeverity": {
+            "alma": 3,
+            "amazon": 3,
+            "cbl-mariner": 3,
+            "ghsa": 3,
+            "nvd": 3,
+            "oracle-oval": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/errata/RHSA-2023:5363",
+            "https://access.redhat.com/security/cve/CVE-2022-25883",
+            "https://bugzilla.redhat.com/2216475",
+            "https://bugzilla.redhat.com/2230948",
+            "https://bugzilla.redhat.com/2230955",
+            "https://bugzilla.redhat.com/2230956",
+            "https://errata.almalinux.org/9/ALSA-2023-5363.html",
+            "https://github.com/advisories/GHSA-c2qf-rxjj-qqgw",
+            "https://github.com/npm/node-semver",
+            "https://github.com/npm/node-semver/blob/main/classes/range.js#L97-L104",
+            "https://github.com/npm/node-semver/blob/main/classes/range.js%23L97-L104",
+            "https://github.com/npm/node-semver/blob/main/internal/re.js#L138",
+            "https://github.com/npm/node-semver/blob/main/internal/re.js#L160",
+            "https://github.com/npm/node-semver/blob/main/internal/re.js%23L138",
+            "https://github.com/npm/node-semver/blob/main/internal/re.js%23L160",
+            "https://github.com/npm/node-semver/commit/2f8fd41487acf380194579ecb6f8b1bbfe116be0",
+            "https://github.com/npm/node-semver/commit/717534ee353682f3bcf33e60a8af4292626d4441",
+            "https://github.com/npm/node-semver/commit/928e56d21150da0413a3333a3148b20e741a920c",
+            "https://github.com/npm/node-semver/pull/564",
+            "https://github.com/npm/node-semver/pull/585",
+            "https://github.com/npm/node-semver/pull/593",
+            "https://linux.oracle.com/cve/CVE-2022-25883.html",
+            "https://linux.oracle.com/errata/ELSA-2023-5363.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-25883",
+            "https://security.netapp.com/advisory/ntap-20241025-0004",
+            "https://security.netapp.com/advisory/ntap-20241025-0004/",
+            "https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795",
+            "https://www.cve.org/CVERecord?id=CVE-2022-25883"
+          ],
+          "PublishedDate": "2023-06-21T05:15:09.06Z",
+          "LastModifiedDate": "2024-12-06T17:15:07.26Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2021-33623",
+          "PkgID": "trim-newlines@1.0.0",
+          "PkgName": "trim-newlines",
+          "PkgPath": "usr/nodeapp/node_modules/trim-newlines/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/trim-newlines@1.0.0",
+            "UID": "5619226296e153ad"
+          },
+          "InstalledVersion": "1.0.0",
+          "FixedVersion": "3.0.1, 4.0.1",
+          "Status": "fixed",
+          "Layer": {
+            "DiffID": "sha256:18da6508478fcb280488f88e59e474d0d4ab06d8b4462c93d738422379a9b743"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-33623",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-trim-newlines: ReDoS in .end() method",
+          "Description": "The trim-newlines package before 3.0.1 and 4.x before 4.0.1 for Node.js has an issue related to regular expression denial-of-service (ReDoS) for the .end() method.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V2Score": 5,
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2021-33623",
+            "https://github.com/sindresorhus/trim-newlines",
+            "https://github.com/sindresorhus/trim-newlines/commit/25246c6ce5eea1c82d448998733a6302a4350d91",
+            "https://github.com/sindresorhus/trim-newlines/commit/b10d5f4afef832b16bc56d49fc52c68cbd403869",
+            "https://github.com/sindresorhus/trim-newlines/releases/tag/v4.0.1",
+            "https://lists.debian.org/debian-lts-announce/2022/12/msg00033.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-33623",
+            "https://security.netapp.com/advisory/ntap-20210702-0007",
+            "https://security.netapp.com/advisory/ntap-20210702-0007/",
+            "https://ubuntu.com/security/notices/USN-5999-1",
+            "https://www.cve.org/CVERecord?id=CVE-2021-33623",
+            "https://www.npmjs.com/package/trim-newlines"
+          ],
+          "PublishedDate": "2021-05-28T18:15:07.537Z",
+          "LastModifiedDate": "2024-11-21T06:09:12.88Z"
+        }
+      ]
+    }
+  ]
+}

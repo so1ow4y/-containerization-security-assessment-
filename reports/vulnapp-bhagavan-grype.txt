@@ -1,0 +1,21 @@
+NAME             INSTALLED   FIXED IN  TYPE  VULNERABILITY        SEVERITY  EPSS          RISK   
+lodash           3.10.1      4.17.12   npm   GHSA-jf85-cpcp-j695  Critical  3.4% (86th)   3.1    
+lodash           3.10.1      4.17.19   npm   GHSA-p6mc-m468-83gw  High      2.4% (84th)   1.8    
+trim-newlines    1.0.0       3.0.1     npm   GHSA-7p7h-4mm5-852v  High      1.3% (78th)   0.9    
+got              6.7.1       11.8.5    npm   GHSA-pfrx-2q88-qq97  Medium    0.9% (74th)   0.4    
+lodash           3.10.1      4.17.21   npm   GHSA-35jh-r3h4-6jhm  High      0.6% (67th)   0.4    
+lodash.template  4.5.0                 npm   GHSA-35jh-r3h4-6jhm  High      0.6% (67th)   0.4    
+semver           7.0.0       7.5.2     npm   GHSA-c2qf-rxjj-qqgw  High      0.4% (61st)   0.3    
+lodash           3.10.1      4.17.11   npm   GHSA-4xc9-xhrj-v574  High      0.4% (60th)   0.3    
+knex             1.0.7       2.4.0     npm   GHSA-4jv9-3563-23j3  High      0.3% (48th)   0.2    
+css-what         1.0.0       2.1.3     npm   GHSA-p28h-cc7q-c4fg  High      0.2% (43rd)   0.2    
+lodash           3.10.1      4.17.5    npm   GHSA-fvqr-27wr-82fm  Medium    0.2% (44th)   0.1    
+lodash           3.10.1      4.17.21   npm   GHSA-29mw-wpgm-hmr9  Medium    0.2% (42nd)   0.1    
+lodash           3.10.1      4.17.11   npm   GHSA-x5rq-j2xg-h7qm  Medium    0.2% (41st)   < 0.1  
+nth-check        1.0.2       2.0.1     npm   GHSA-rp65-9cf3-cjxr  High      0.1% (30th)   < 0.1  
+busybox          1.37.0-r18            apk   CVE-2024-58251       Low       < 0.1% (7th)  < 0.1  
+busybox-binsh    1.37.0-r18            apk   CVE-2024-58251       Low       < 0.1% (7th)  < 0.1  
+ssl_client       1.37.0-r18            apk   CVE-2024-58251       Low       < 0.1% (7th)  < 0.1  
+busybox          1.37.0-r18            apk   CVE-2025-46394       Low       < 0.1% (4th)  < 0.1  
+busybox-binsh    1.37.0-r18            apk   CVE-2025-46394       Low       < 0.1% (4th)  < 0.1  
+ssl_client       1.37.0-r18            apk   CVE-2025-46394       Low       < 0.1% (4th)  < 0.1
